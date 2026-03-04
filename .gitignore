@@ -3,3 +3,4 @@ chromadb
 test.py
 output
 venv
+__pycache__
