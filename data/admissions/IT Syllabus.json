@@ -1,0 +1,125 @@
+{
+  "course_name": "B.Tech Information Technology",
+  "regulation": "Regulation 2024 (R24)",
+  "duration": "4 Years (8 Semesters)",
+  "total_credits": 166,
+  "semester_wise_subjects": {
+    "Semester 1": [
+      "Induction Programme",
+      "Mathematics – I (Calculus and Linear Algebra)",
+      "Professional Ethics and Universal Human Values",
+      "Heritage of Tamils",
+      "Communicative English – I",
+      "Engineering Physics",
+      "Digital System Design",
+      "C++ Programming",
+      "Employability Enhancement Course – I"
+    ],
+    "Semester 2": [
+      "Mathematics – II (Probability and Statistics)",
+      "Tamils and Technology",
+      "Communicative English – II",
+      "Web Development Essentials",
+      "Data Structures using C++",
+      "Database Management Systems",
+      "Introduction to Java Programming",
+      "Employability Enhancement Course – II",
+      "NCC Credit Course Level 1 (Optional)"
+    ],
+    "Semester 3": [
+      "Discrete Mathematics",
+      "Operating Systems",
+      "Design and Analysis of Algorithms",
+      "Web Development Frameworks and Practices",
+      "Ethical Hacking",
+      "Python Programming",
+      "Core Course Project – I",
+      "Employability Enhancement Course – III",
+      "Mandatory Course – I"
+    ],
+    "Semester 4": [
+      "Computing Theory and Compiler Design",
+      "Computer Architecture",
+      "Introduction to Artificial Intelligence and Machine Learning",
+      "Introduction to Cyber Security",
+      "Software Engineering",
+      "Computer Networks",
+      "Core Course Project – II",
+      "Employability Enhancement Course – IV",
+      "Mandatory Course – II",
+      "NCC Credit Course Level 2 (Optional)"
+    ],
+    "Semester 5": [
+      "Principles of Communication Systems",
+      "Embedded Programming",
+      "Data Analytics and Visualization",
+      "Professional Elective – I",
+      "Professional Elective – II",
+      "Professional Elective – III",
+      "Core Course Project – III",
+      "Employability Enhancement Course – V"
+    ],
+    "Semester 6": [
+      "Managerial Economics and Financial Accounting",
+      "Cloud and Distributed Computing",
+      "Mobile Computing",
+      "Professional Elective – IV",
+      "Professional Elective – V",
+      "Open Elective – I",
+      "Core Course Project – IV"
+    ],
+    "Semester 7": [
+      "Professional Elective – VI",
+      "Open Elective – II",
+      "Project Phase – I",
+      "Internship"
+    ],
+    "Semester 8": [
+      "Project Phase – II"
+    ]
+  },
+  "key_highlights": {
+    "core_focus_areas": [
+      "Data Structures and Algorithms",
+      "Operating Systems",
+      "Computer Networks",
+      "Database Management Systems",
+      "Artificial Intelligence and Machine Learning",
+      "Cyber Security",
+      "Cloud and Distributed Computing",
+      "Mobile Computing",
+      "Data Analytics and Visualization",
+      "Embedded Programming"
+    ],
+    "program_structure": {
+      "Humanities_and_Social_Sciences": 16,
+      "Basic_Sciences": 16,
+      "Engineering_Sciences": 16,
+      "Program_Core_Courses": 73,
+      "Professional_Electives": 18,
+      "Open_Electives": 6,
+      "Employability_Enhancement_Courses": 21,
+      "Mandatory_Courses": 0
+    },
+    "project_based_learning": [
+      "Core Course Project I to IV",
+      "Project Phase I",
+      "Project Phase II",
+      "Internship in Semester VII"
+    ],
+    "evaluation_scheme": {
+      "theory_courses": "40% Internal + 60% End Semester",
+      "practical_courses": "60% Internal + 40% End Semester",
+      "theory_cum_practical": "50% Internal + 50% End Semester",
+      "project_assessment": "40% Internal Reviews + 20% Report + 40% Viva/Demonstration",
+      "minimum_pass_requirement": "Minimum 50% separately in Internal and End Semester"
+    },
+    "induction_program": "Catapult week-long orientation introducing labs, Centers of Excellence, student clubs, and departmental projects.",
+    "learning_beyond_classroom": [
+      "Encouraged participation in hackathons and competitions",
+      "Exposure to Centers of Excellence",
+      "Industry-oriented practical exposure",
+      "GitHub-based deployment and modern development practices"
+    ]
+  }
+}

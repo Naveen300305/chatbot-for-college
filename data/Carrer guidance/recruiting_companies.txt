@@ -1,0 +1,56 @@
+Top Recruiting Companies by Course - Chennai Institute of Technology
+--------------------------------------------------------------------
+
+Course: B.E. CSE / B.Tech AI&DS / B.Tech IT / B.Tech CSBS / B.E. CSE (AI&ML) / B.E. CSE (Cyber Security)
+Top Recruiters:
+- IT Services: TCS, Infosys, Wipro, HCL, Cognizant, Capgemini, Tech Mahindra
+- Product Companies: Google, Microsoft, Amazon, Meta, Apple (via higher studies/off-campus)
+- Mid-tier Product: Zoho, Freshworks, Chargebee, Kissflow, PayU (Chennai based)
+- Startups: Numerous funded startups in Chennai and Bangalore
+- Banking Tech: Temenos, Mphasis, FIS Global
+- Consulting: Accenture, Deloitte, IBM
+- Analytics: Mu Sigma, Fractal Analytics, Latent View
+
+Course: B.E. Electronics and Communication Engineering / Advanced Communication Technology / VLSI Design
+Top Recruiters:
+- Semiconductor/VLSI: Qualcomm, Intel, Texas Instruments, NXP Semiconductors, Renesas
+- Telecom: Ericsson, Nokia, Motorola Solutions, BSNL, Airtel (Tech roles)
+- Defense/Space: DRDO, ISRO, BEL, HAL (via GATE/competitive exams)
+- Embedded: Robert Bosch, Continental, Harman, Visteon
+- IT Companies: TCS, Infosys, Wipro (for ECE graduates)
+- Consumer Electronics: Samsung R&D, LG, Sony
+
+Course: B.E. Electrical and Electronics Engineering
+Top Recruiters:
+- Power Sector: TNEB, NTPC, BHEL, Power Grid Corporation
+- Automation: ABB, Siemens, Schneider Electric, Honeywell
+- Automobiles: TVS Motors, Ashok Leyland, Hyundai (Chennai plant)
+- Manufacturing: L&T, GE Power, Crompton Greaves
+- IT (Electrical domain): TCS, Infosys (for EEE graduates)
+- Government: TNPSC AE, SSC JE, UPSC ESE
+
+Course: B.E. Mechanical Engineering / B.E. Mechatronics Engineering
+Top Recruiters:
+- Automobile: TATA Motors, Mahindra, Ashok Leyland, TVS Motors, Hyundai, Ford (Chennai)
+- Manufacturing: L&T, Bosch, Saint-Gobain, Caterpillar, Cummins
+- Aerospace: HAL, ISRO, Airbus India, Boeing India
+- Oil & Gas: ONGC, IOCL, BPCL (via GATE)
+- IT (Mech domain): TCS, Infosys, Wipro (for Mech graduates)
+- Government: DRDO, Railways, TNPSC AE
+
+Course: B.E. Civil Engineering
+Top Recruiters:
+- Construction: L&T Construction, Shapoorji Pallonji, Tata Projects
+- Infrastructure: NHAI, Chennai Metro Rail, CMRL
+- Real Estate: DLF, Sobha Developers, Prestige Group
+- Government: PWD, CPWD, TNHB, Highways Department
+- Consulting: AECOM, Jacobs Engineering, WSP
+- IT (Civil domain): Autodesk, Bentley Systems
+
+Course: B.E. Biomedical Engineering
+Top Recruiters:
+- Medical Devices: Philips Healthcare, GE Healthcare, Siemens Healthineers
+- Hospitals: Apollo, Fortis, MIOT (as Biomedical Engineer)
+- Research: CSIR labs, IIT research centers
+- Healthcare IT: Cerner, Epic Systems, Allscripts
+- Government: DRDO, Ministry of Health (research roles)

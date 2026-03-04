@@ -1,0 +1,130 @@
+{
+  "course_name": "B.E. Electronics and Communication Engineering",
+  "regulation": "R24 (Regulation 2024)",
+  "duration": "4 Years (8 Semesters)",
+  "total_credits": 167,
+  "semester_wise_subjects": {
+    "Semester 1": [
+      "Induction Programme",
+      "Matrices and Calculus",
+      "Communicative English I",
+      "Engineering Physics",
+      "Problem Solving using C Programming",
+      "Electronic Devices and Circuits",
+      "Digital System Design",
+      "Heritage of Tamils",
+      "Employability Enhancement Skills I"
+    ],
+    "Semester 2": [
+      "Statistics and Numerical Methods",
+      "Communicative English – II",
+      "Electronic Circuits",
+      "Circuit Theory",
+      "C++ Programming",
+      "Data Structures and Algorithm using C",
+      "Tamils and Technology",
+      "Employability Enhancement Skills – II",
+      "NCC Credit Course Level 1 (Optional)"
+    ],
+    "Semester 3": [
+      "Mathematical Methods for Engineering",
+      "Signals and Systems",
+      "Microprocessors and Microcontrollers",
+      "Analog Integrated Circuits",
+      "Communication Systems",
+      "Object Oriented Programming in JAVA",
+      "Employability Enhancement Skills – III",
+      "Mandatory Course – I",
+      "Core Course Project – I"
+    ],
+    "Semester 4": [
+      "Electromagnetic Fields",
+      "Digital Communication",
+      "Embedded Programming",
+      "Digital Signal Processing",
+      "VLSI Design",
+      "Fundamentals of Data Science and Machine Learning",
+      "Core Course Project – II",
+      "Employability Enhancement Skills – IV",
+      "Mandatory Course – II",
+      "NCC Credit Course Level 2 (Optional)"
+    ],
+    "Semester 5": [
+      "Transmission Lines and RF Design",
+      "Control System",
+      "Antennas and Microwave Engineering",
+      "Professional Elective  I",
+      "Professional Elective  II",
+      "Professional Elective – III",
+      "Core Course Project – III"
+    ],
+    "Semester 6": [
+      "Computer Vision and Image Processing",
+      "Wireless Communication",
+      "Communication Networks and Security",
+      "Professional Elective – IV",
+      "Professional Elective – V",
+      "Open Elective – I",
+      "Core Course Project – IV",
+      "NCC Credit Course Level 3 (Optional)"
+    ],
+    "Semester 7": [
+      "Software Defined Radio",
+      "Optical Communication and Networks",
+      "Professional Elective – VI",
+      "Open Elective – II",
+      "Internship",
+      "Project Work – Phase I"
+    ],
+    "Semester 8": [
+      "Project Work – Phase II"
+    ]
+  },
+  "key_highlights": {
+    "core_focus_areas": [
+      "Electronic Devices and Circuits",
+      "Digital System Design",
+      "Signals and Systems",
+      "Communication Systems",
+      "Digital Signal Processing",
+      "VLSI Design",
+      "Embedded Systems",
+      "Wireless Communication",
+      "RF and Microwave Engineering",
+      "Optical Communication",
+      "Software Defined Radio",
+      "Computer Vision"
+    ],
+    "project_based_learning": [
+      "Core Course Project I to IV",
+      "Internship in Semester VII",
+      "Project Work Phase I",
+      "Project Work Phase II"
+    ],
+    "industry_relevance": [
+      "Strong foundation in Analog and Digital Communication",
+      "Integration of Embedded and VLSI technologies",
+      "RF, Optical and Wireless Communication exposure",
+      "Data Science and Machine Learning integration",
+      "Professional Electives for specialization tracks"
+    ],
+    "evaluation_scheme": {
+      "theory_courses": "40% Internal + 60% End Semester",
+      "practical_courses": "60% Internal + 40% End Semester",
+      "theory_cum_practical": "50% Internal + 50% End Semester",
+      "project_assessment": "40% Internal Reviews + 20% Report + 40% Viva/Demonstration",
+      "minimum_pass_requirement": "Minimum 50% separately in Internal and End Semester"
+    },
+    "credit_distribution": {
+      "Humanities_and_Social_Sciences": 10,
+      "Basic_Sciences": 16,
+      "Engineering_Sciences": 20,
+      "Program_Core": 81,
+      "Professional_Electives": 18,
+      "Open_Electives": 6,
+      "Employability_Enhancement_Skills": 16,
+      "Mandatory_Courses": 0
+    },
+    "induction_program": "Catapult week-long orientation introducing labs, COEs, departmental projects, clubs, and academic ecosystem."
+  }
+}

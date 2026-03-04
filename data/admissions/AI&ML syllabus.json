@@ -1,0 +1,131 @@
+{
+  "course_name": "B.E. Computer Science and Engineering (Artificial Intelligence & Machine Learning)",
+  "regulation": "Regulation 2024 (R24)",
+  "duration": "4 Years (8 Semesters)",
+  "total_credits": 168,
+  "semester_wise_subjects": {
+    "Semester 1": [
+      "Induction Program",
+      "Mathematics – I (Calculus and Linear Algebra)",
+      "Heritage of Tamils",
+      "Communicative English – I",
+      "Engineering Physics",
+      "Artificial Intelligence",
+      "Digital System Design",
+      "C++ Programming",
+      "Employability Enhancement Skills – I"
+    ],
+    "Semester 2": [
+      "Mathematics – II (Probability and Statistics)",
+      "Tamils and Technology",
+      "Communicative English – II",
+      "Web Development Essentials",
+      "Data Structures using C++",
+      "Database Management Systems",
+      "Introduction to Java Programming",
+      "Employability Enhancement Skills – II"
+    ],
+    "Semester 3": [
+      "Discrete Mathematics",
+      "Operating Systems",
+      "Design and Analysis of Algorithms",
+      "Web Development Frameworks and Practices",
+      "Foundation of Data Science",
+      "Parallel Programming through Python",
+      "Core Course Project – I",
+      "Employability Enhancement Skills – III",
+      "Mandatory Course – I"
+    ],
+    "Semester 4": [
+      "Computing Theory and Compiler Design",
+      "Machine Learning",
+      "Modern Computer Architecture",
+      "Data Warehousing and Data Mining",
+      "Big Data Analytics",
+      "Computer Networks",
+      "Core Course Project – II",
+      "Employability Enhancement Skills – IV",
+      "Mandatory Course – II"
+    ],
+    "Semester 5": [
+      "Natural Language Processing",
+      "Federated Learning",
+      "Reinforcement Learning",
+      "Professional Elective – I",
+      "Professional Elective – II",
+      "Professional Elective – III",
+      "Core Course Project – III",
+      "Employability Enhancement Skills – V"
+    ],
+    "Semester 6": [
+      "Machine Learning Operations",
+      "Generative AI",
+      "Deep Learning for Vision",
+      "Professional Elective – IV",
+      "Professional Elective – V",
+      "Open Elective – I",
+      "Core Course Project – IV"
+    ],
+    "Semester 7": [
+      "Professional Ethics and Universal Human Values",
+      "Professional Elective – VI",
+      "Open Elective – II",
+      "Internship",
+      "Project Phase – I"
+    ],
+    "Semester 8": [
+      "Project Phase – II"
+    ]
+  },
+  "key_highlights": {
+    "core_specialization_focus": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "Natural Language Processing",
+      "Reinforcement Learning",
+      "Federated Learning",
+      "Generative AI",
+      "Machine Learning Operations",
+      "Big Data Analytics",
+      "Data Warehousing and Mining"
+    ],
+    "strong_foundation_courses": [
+      "Discrete Mathematics",
+      "Operating Systems",
+      "Design and Analysis of Algorithms",
+      "Computer Networks",
+      "Modern Computer Architecture",
+      "Database Management Systems"
+    ],
+    "project_based_learning": [
+      "Core Course Project I to IV",
+      "Internship in Semester VII",
+      "Project Phase I",
+      "Project Phase II"
+    ],
+    "credit_distribution": {
+      "Humanities_and_Social_Sciences": 13,
+      "Basic_Sciences": 16,
+      "Engineering_Sciences": 16,
+      "Program_Core": 78,
+      "Professional_Electives": 18,
+      "Open_Electives": 6,
+      "Employability_Enhancement_Courses": 21,
+      "Mandatory_Courses": 0
+    },
+    "evaluation_scheme": {
+      "theory_courses": "40% Internal + 60% End Semester",
+      "practical_courses": "60% Internal + 40% End Semester",
+      "theory_cum_practical": "50% Internal + 50% End Semester",
+      "project_assessment": "40% Internal Reviews + 20% Report + 40% Viva/Demonstration",
+      "minimum_pass_requirement": "Minimum 50% separately in Internal and End Semester"
+    },
+    "learning_beyond_classroom": [
+      "Catapult induction program",
+      "Centers of Excellence exposure",
+      "Hackathons and competitions",
+      "Industry-oriented projects"
+    ]
+  }
+}

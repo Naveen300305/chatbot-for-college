@@ -1,0 +1,47 @@
+1) Center for 3D Printing and Reverse Engineering:
+The 3D printing and Reverse Engineering Lab is one of the outstanding Centre of Excellence (CoE) , started in association with prestigious Lu-Ban workshop of China and Tianjin Vocational college of Mechanical and Electricity.This CoE is meant for providing fundamental knowledge on additive manufacturing process for the engineering students and practicing engineers from the industry and research establishment.
+
+This CoE is closely working with different engineering industries and providing different design solution, based on their critical solution requirements. Our trainee students are allowed to undertake such challenging industrial design projects under the supervision of faculty members.The successfully completed few of the industrial projects includes, DXC.technologies, Rane NSK, WABCO, Borgwarner, Livergent technologies etc.,
+
+The students of CIT participated in the International Skill competition held at China during June 2018 along with the different Global competitors, and won the excellence award. The applications of 3D Reverse Engineering technology is widely applied in different fields of engineering includes Architecture, Automotive, Aerospace, Ship building, Satellite modelling and further providing supports different Medical applications.
+
+
+
+2) CIT – KYUTECH – WABCO Center for IoT:
+WABCO – CIT – KYUTECH Center of Excellence for IoT was established in the year 2018 by Chennai Institute of technology jointly with Wabco, Chennai and Kyutech Institute of Technology, Japan to provide a Platform for innovation in cutting edge technologies like IoT, NFV, 5G, M2M, D2D, Security. This CoE has state of art infrastructures such as Superfast Internet, Workstation space, Development boards, signal generators, Oscilloscope which creates an ecosystem to do Industrial projects, R&D and product development to address the ongoing shortcomings with game-changing solutions with faster. This CoE focuses on building solutions for applications such as agriculture, automobile, telecom, healthcare, and consumer goods as well as preparing undergraduate students to participate in competitions in and around the world to showcase their skills.
+
+
+
+
+3) CISCO Networking Academy:
+Chennai Institute of Technology has teamed with Cisco Systems, Inc., to become a Cisco Networking Academy. The Academy program was launched at Dr.A.P.J.Abdul Kalam Innovative Learning Program Center, CIT Campus in September 2017 and has been offering regular CCNA certification classes since then. In addition to CCNA courses, the academy offers many other courses including
+
+ IT Essentials – PC Hardware and Software
+ IoT Fundamentals – Hackathon Playbook, Bigdata & Analytics
+ Cybersecurity
+ Linux Essentials
+ Advanced Programming in C & C++
+ Entrepreneurship
+
+
+
+4) Center for NC Technologies
+Luban Workshop in Chennai Institute of Technology , Tamilnadu, India   helps to facilitate education-industry collaboration. It is not just a unilateral education provider, but involves two-way exchanges such as student exchange and mutual recognition of academic qualifications. Few of our students and faculty members from “Chennai Institute of Technology” have been sent to study at the “Tianjin Vocational College of Mechanics and Electricity”. In the foreseeable future, adequately trained professionals from India will be able to seek job opportunities in China India as well.
+
+In our college, we have world class training area for NC Technology to provide training on CAD/CAM software interfacing with CNC Turning and Milling center for NC Technology and also providing hands on experience to get better skills to participate Various National and International Competitions. We already have achieved “Excellence Award” in Industrial Products Digital Design and Manufacturing among various nations.
+
+5) KUKA CENTER FOR Industrial Robotics
+This collaborative effort of CIT-CHENNAI & KUKA has the main objective to encourage young professionals to take up this cross disciplinary field as a career of their choice and acquaint them with latest technological developments in the field of Industrial Robotics. The centre aims to train young engineering graduates and diploma students of all engineering disciplines up to the Industry expectations and foster research in applied robotics field.
+
+The center is equipped with standard training cell comprising of KUKA KR-16 Industrial Robot with required auxiliary equipment. This training cell is capable of performing multitude of operations used for welding, painting, gluing and other essential industrial operations used by the automobile, food & beverages, packaging and other manufacturing/Production industries. In addition to this, a robotics computer simulation lab is also being established with latest industrial robotics simulation Software like SimPro & SimLayout, used to design, develop and simulate robotic operations for different manufacturing establishments.
+
+6) Center for Energy (Solar & Wind) & Research
+About the Centre:
+Center for Energy (Solar & Wind) & Research (CER) Since its inception in the year 2015 the New Energy lab aims to create awareness to students on New and Emerging Energy Technologies which is very much a need of the hour. Energy being an interdisciplinary subject involves diverse field of Science and Engineering and subsequently it is an opportunity to students to work together with the students of other department.
+At Luban Workshop for New Energy various research activities are carried from the fundamental science to integrated energy technologies that can energize our lives. The field of energy research at CoE-New Energy Lab includes Solar PV-cell, Wind power, Fuel cell, Electrolyser and Batteries. The students are well equipped with these renewable and new technologies so as to have a holistic exposure on energy technologies.
+
+Apart from experiment the students are trained on simulation Software like Matlab® and HOMER Pro® for energy modeling, optimization and management. 
+
+7) CENTER FOR ADDITIVE MANUFACTURING
+Welcome to the Centre for Additive Manufacturing!
+Centre for Additive Manufacturing (CAM), a pioneering institution at the forefront of innovation in the realm of 3D printing and advanced manufacturing technologies. The CAM envisions a future in which additive manufacturing technologies revolutionize production, leading to significant breakthroughs in various industries. This is a special establishment to carry out R&D projects for Industries. Students from first year onwards are engaged in this centre on various projects in R&D and numerical simulation. A strong basic on physics and mathematics is being imparted to the students for creating the ability among the students to be inducted into the project. Interactions with experts from IITs, NITs and Industries are arranged to train the students through this centre.The CAM is dedicated to conducting research in the field of additive manufacturing (AM), with a particular emphasis on metal and polymer materials. The Centre aims to develop new AM technologies, improve existing technologies, explore the applications of AM in various industries and also do collaborative works with various national and international institutes and industries. The Centre is working on improving the efficiency, accuracy, and reliability of existing AM technologies. The Centre is exploring the applications of AM in various industries, such as aerospace, automotive, healthcare, and consumer goods. The CAM has made a significant impact on the field of AM in India. The Centre has published numerous research papers in reputed journals, presented at national and international conferences. The Centre has also collaborated with a number of companies to develop AM applications for their products.

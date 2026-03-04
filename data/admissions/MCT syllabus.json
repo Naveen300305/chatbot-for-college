@@ -1,0 +1,130 @@
+{
+  "course_name": "B.E. Mechatronics Engineering",
+  "regulation": "Regulation 2024 (R24)",
+  "duration": "4 Years (8 Semesters)",
+  "total_credits": 170,
+  "semester_wise_subjects": {
+    "Semester 1": [
+      "Heritage of Tamils",
+      "Calculus and Linear Algebra",
+      "Communicative English – I",
+      "Engineering Physics",
+      "Problem Solving using C Programming",
+      "Engineering Graphics",
+      "Engineering Mechanics",
+      "Employability Enhancement Skills – I"
+    ],
+    "Semester 2": [
+      "Tamils and Technology",
+      "Probability and Statistics",
+      "Data Structures",
+      "Communicative English – II",
+      "Material Science",
+      "Problem Solving using Python Programming",
+      "Electronic Devices and Circuits",
+      "Employability Enhancement Skills – II",
+      "NCC Credit Course Level 1 (Optional)"
+    ],
+    "Semester 3": [
+      "Mathematical Methods for Engineering",
+      "Digital Electronics and Microcontroller",
+      "Fluid Mechanics and Thermal System",
+      "Artificial Intelligence and Machine Learning Fundamentals",
+      "Object Oriented Programming",
+      "Electrical Drives and Actuators",
+      "Core Course Project – I",
+      "Employability Enhancement Skills – III",
+      "Mandatory Course – I"
+    ],
+    "Semester 4": [
+      "Numerical Methods",
+      "Mechanics of Materials",
+      "Control System Engineering",
+      "Sensors, Measurements and Instrumentation",
+      "Kinematics and Dynamics of Machinery",
+      "Manufacturing Technology",
+      "Computer Aided Design and Modelling Laboratory",
+      "Core Course Project – II",
+      "Employability Enhancement Skills – IV",
+      "Mandatory Course – II",
+      "NCC Credit Course Level 2 (Optional)"
+    ],
+    "Semester 5": [
+      "Design of Machine Elements",
+      "Professional Elective – I",
+      "Professional Elective – II",
+      "Professional Elective – III",
+      "Computer Aided Design and Manufacturing",
+      "Fluid Power System for Automation",
+      "Core Course Project – III",
+      "Employability Enhancement Skills – V"
+    ],
+    "Semester 6": [
+      "Design of Mechatronics System",
+      "Open Elective – I",
+      "Professional Elective – IV",
+      "Professional Elective – V",
+      "Robotics and Machine Vision Systems",
+      "Industrial Automation",
+      "Core Course Project – IV",
+      "NCC Credit Course Level 3 (Optional)"
+    ],
+    "Semester 7": [
+      "Professional Ethics in Engineering",
+      "Embedded and Real Time Operating Systems",
+      "Open Elective – II",
+      "Professional Elective – VI",
+      "Internet of Things – Concepts and Applications",
+      "Project Work – Phase I"
+    ],
+    "Semester 8": [
+      "Project Work – Phase II"
+    ]
+  },
+  "key_highlights": {
+    "core_focus_areas": [
+      "Digital Electronics and Microcontrollers",
+      "Electrical Drives and Actuators",
+      "Control Systems Engineering",
+      "Sensors and Instrumentation",
+      "Robotics and Machine Vision",
+      "Industrial Automation",
+      "Embedded Systems",
+      "Internet of Things",
+      "Fluid Power Systems",
+      "Manufacturing Technology"
+    ],
+    "interdisciplinary_strength": [
+      "Integration of Mechanical, Electrical, Electronics and Computer Engineering",
+      "AI and Machine Learning fundamentals included",
+      "CAD and CAM integration",
+      "Automation and Robotics specialization options"
+    ],
+    "project_based_learning": [
+      "Core Course Project I to IV",
+      "Project Work Phase I",
+      "Project Work Phase II"
+    ],
+    "elective_clusters": [
+      "Applied Robotics",
+      "Electronics, Networking and Automation",
+      "Design and Manufacturing",
+      "Autonomous Vehicle Technology",
+      "Cognitive Automation Systems",
+      "Management Courses"
+    ],
+    "evaluation_scheme": {
+      "theory_courses": "40% Internal + 60% End Semester",
+      "practical_courses": "60% Internal + 40% End Semester",
+      "theory_cum_practical": "50% Internal + 50% End Semester",
+      "project_assessment": "40% Internal Reviews + 20% Report + 40% Viva/Demonstration",
+      "minimum_pass_requirement": "Minimum 50% separately in Internal and End Semester"
+    },
+    "learning_beyond_classroom": [
+      "Encouragement to visit Centers of Excellence (COEs)",
+      "Participation in hackathons and competitions",
+      "Industry-relevant practical exposure"
+    ],
+    "induction_program": "Catapult week-long orientation introducing labs, Centers of Excellence, departmental projects, and student clubs."
+  }
+}

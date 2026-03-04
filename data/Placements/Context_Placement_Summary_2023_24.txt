@@ -1,0 +1,22 @@
+Placement Participation Summary – Academic Year 2023–2024
+Institution: Chennai Institute of Technology
+
+This dataset contains the placement participation and outcome summary for Chennai Institute of Technology for the academic year 2023–2024.
+
+The data provides a structured overview of the total student strength, number of students who registered for campus placements, students who opted for higher studies, total number of students placed, and the overall placement percentage.
+
+This dataset focuses on student participation distribution and placement success rate, rather than salary package details.
+
+What This Data Represents
+
+The dataset typically includes:
+
+Total Strength (total eligible final-year students)
+
+Registered for Placements (students who participated in recruitment)
+
+Opted for Higher Studies (students who chose postgraduate education)
+
+Number of Students Placed (students who secured job offers)
+
+Placement Percentage (placement success rate among registered students)

@@ -1,0 +1,63 @@
+Industry Trends and Salary Insights - Chennai Institute of Technology
+---------------------------------------------------------------------
+
+High Demand Fields in 2025:
+1. Artificial Intelligence and Machine Learning
+   - One of the fastest growing fields globally
+   - High demand in IT, healthcare, finance, retail
+   - Average fresher salary: Rs. 6-12 LPA
+
+2. Cybersecurity
+   - Critical need across all industries
+   - Shortage of skilled professionals worldwide
+   - Average fresher salary: Rs. 5-10 LPA
+
+3. Cloud Computing
+   - AWS, Azure, GCP driving massive hiring
+   - Every company moving to cloud
+   - Average fresher salary: Rs. 6-10 LPA
+
+4. Data Science and Analytics
+   - Data-driven decisions in every industry
+   - High demand in BFSI, e-commerce, healthcare
+   - Average fresher salary: Rs. 5-10 LPA
+
+5. VLSI and Semiconductor Design
+   - India becoming semiconductor hub (CHIPS Act effect)
+   - Government incentives attracting global chip makers
+   - Average fresher salary: Rs. 6-15 LPA
+
+6. Embedded Systems and IoT
+   - Automotive, industrial, smart home sectors growing
+   - Electric vehicle revolution driving embedded demand
+   - Average fresher salary: Rs. 4-8 LPA
+
+7. Robotics and Automation
+   - Manufacturing moving to Industry 4.0
+   - High demand in automobile and FMCG sectors
+   - Average fresher salary: Rs. 4-8 LPA
+
+8. Renewable Energy / Green Tech
+   - Solar and wind energy sector booming in India
+   - Government push for 500 GW renewable by 2030
+   - Average fresher salary: Rs. 3.5-6 LPA
+
+Salary Ranges by Course (Fresher - Chennai/India Average):
+-----------------------------------------------------------
+B.E. CSE / B.Tech IT / AI&DS:        Rs. 4 - 12 LPA (varies by company)
+B.E. ECE / VLSI / Comm Tech:         Rs. 4 - 10 LPA
+B.E. EEE:                            Rs. 3.5 - 7 LPA
+B.E. Mechanical / Mechatronics:      Rs. 3 - 6 LPA
+B.E. Civil:                          Rs. 3 - 5 LPA
+B.E. Biomedical:                     Rs. 3 - 6 LPA
+B.Tech CSBS:                         Rs. 4 - 10 LPA
+
+Note: Salary depends on skills, company, location, and individual performance.
+Top product companies (Google, Microsoft, Zoho, Freshworks) pay significantly higher.
+
+Chennai as a Tech Hub:
+- Home to IT parks: Tidel Park, RMZ Millenia, DLF Cybercity
+- Strong automobile industry: Hyundai, Ford, Ashok Leyland, TVS
+- Growing startup ecosystem: Freshworks, Zoho, Chargebee, Kissflow
+- Manufacturing hub: Saint-Gobain, Caterpillar, Hyundai
+- Strong presence of IT majors: TCS, Infosys, Wipro, Cognizant, HCL

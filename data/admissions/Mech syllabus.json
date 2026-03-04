@@ -1,0 +1,128 @@
+{
+  "course_name": "B.E. Mechanical Engineering",
+  "regulation": "R24 (Regulation 2024)",
+  "duration": "4 Years (8 Semesters)",
+  "total_credits": 169,
+  "semester_wise_subjects": {
+    "Semester 1": [
+      "Heritage of Tamils",
+      "Mathematics I – Calculus and Linear Algebra",
+      "Engineering Mechanics",
+      "Communicative English I",
+      "Engineering Physics",
+      "Problem Solving Using C Programming",
+      "Engineering Graphics",
+      "Employability Enhancement Skills I"
+    ],
+    "Semester 2": [
+      "Tamils and Technology",
+      "Mathematics II – Probability and Statistics",
+      "Manufacturing Technology I",
+      "Problem Solving Using Python Programming",
+      "Fundamentals of Electrical and Electronics Engineering",
+      "Material Science",
+      "Communicative English II",
+      "Employability Enhancement Skills II",
+      "NCC Credit Course Level 1 (Optional)"
+    ],
+    "Semester 3": [
+      "Mathematics III – Mathematical Methods for Engineering",
+      "Engineering Thermodynamics",
+      "Mandatory Course I",
+      "Fluid Mechanics and Machinery",
+      "Manufacturing Technology II",
+      "Object Oriented Programming",
+      "Solid Mechanics",
+      "Core Course Project I",
+      "Employability Enhancement Skills III"
+    ],
+    "Semester 4": [
+      "Mathematics IV – Numerical Methods",
+      "Design of Machine Elements",
+      "Engineering Metallurgy",
+      "Mandatory Course II",
+      "Mechanics of Machines",
+      "Thermal Engineering",
+      "Welding Technology",
+      "Core Course Project II",
+      "Employability Enhancement Skills IV",
+      "NCC Credit Course Level 2 (Optional)"
+    ],
+    "Semester 5": [
+      "Design of Transmission Systems",
+      "Heat and Mass Transfer",
+      "Professional Elective I",
+      "Professional Elective II",
+      "Professional Elective III",
+      "Product Life Cycle Management",
+      "Core Course Project III",
+      "Employability Enhancement Skills V"
+    ],
+    "Semester 6": [
+      "Mechatronics",
+      "Professional Elective IV",
+      "Professional Elective V",
+      "Open Elective I",
+      "Finite Element Analysis",
+      "Computer Aided Design and Manufacturing",
+      "Mini Project",
+      "NCC Credit Course Level 3 (Optional)"
+    ],
+    "Semester 7": [
+      "Process Planning and Cost Estimation",
+      "Automobile Engineering",
+      "Industrial Internet of Things",
+      "Professional Elective VI",
+      "Open Elective II",
+      "Internship",
+      "Project Phase I"
+    ],
+    "Semester 8": [
+      "Project Phase II"
+    ]
+  },
+  "key_highlights": {
+    "core_focus_areas": [
+      "Manufacturing Technology",
+      "Thermodynamics and Thermal Engineering",
+      "Fluid Mechanics",
+      "Solid Mechanics",
+      "Design of Machine Elements",
+      "Finite Element Analysis",
+      "Mechatronics",
+      "Industrial Internet of Things",
+      "Computer Aided Design and Manufacturing"
+    ],
+    "project_based_learning": [
+      "Core Course Project I",
+      "Core Course Project II",
+      "Core Course Project III",
+      "Mini Project",
+      "Project Phase I",
+      "Project Phase II"
+    ],
+    "industry_readiness": [
+      "Internship in Semester VII",
+      "Employability Enhancement Skills across semesters",
+      "Professional Electives for specialization",
+      "Open Electives for interdisciplinary exposure"
+    ],
+    "evaluation_scheme": {
+      "theory_courses": "40% Internal + 60% End Semester",
+      "practical_courses": "60% Internal + 40% End Semester",
+      "theory_cum_practical": "50% Internal + 50% End Semester",
+      "minimum_pass_requirement": "Minimum 50% separately in Internal and End Semester"
+    },
+    "credit_distribution": {
+      "Humanities_and_Social_Sciences": 10,
+      "Basic_Sciences": 24,
+      "Engineering_Sciences": 24,
+      "Program_Core": 68,
+      "Professional_Electives": 18,
+      "Open_Electives": 6,
+      "Employability_Enhancement_Skills": 19,
+      "Mandatory_Courses": 0
+    },
+    "induction_program": "Catapult week-long orientation introducing labs, COEs, clubs, and campus integration."
+  }
+}

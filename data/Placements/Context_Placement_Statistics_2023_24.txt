@@ -1,0 +1,31 @@
+Placement Statistics – Academic Year 2023–2024
+
+Institution: Chennai Institute of Technology
+
+This dataset contains structured placement performance metrics for Chennai Institute of Technology for the academic year 2023–2024.
+
+The data represents overall placement outcomes, salary distribution, student participation, and high-package offer statistics for that academic cycle.
+
+The purpose of this dataset is to provide factual placement performance indicators that can be used to answer queries related to student placements, job offers, salary packages, and career outcomes.
+
+What This Data Represents
+
+The dataset may include:
+
+Overall placement percentage
+
+Total number of offers received
+
+Highest salary package offered (in LPA – Lakhs Per Annum)
+
+Number of offers above certain salary thresholds (e.g., ₹10 LPA, ₹20 LPA)
+
+Average packages for top-performing students
+
+Total eligible students
+
+Students registered for placements
+
+Students placed
+
+Students opting for higher studies

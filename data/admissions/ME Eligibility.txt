@@ -1,0 +1,37 @@
+M.E. Candidates - Eligibility Criteria
+---------------------------------------
+The minimum requirements for admission to M.E. Degree courses.
+
+Course: M.E. CAD / CAM
+Eligibility: B.E. / B.Tech. in any of the following:
+Mechanical Engg., Mechanical Engg. (Sandwich), Automobile Engg.,
+Manufacturing Engg./Tech., Production Engg./Tech., Production Engg. (Sandwich),
+Aerospace Tech., Industrial Engg., Marine Engg., Mechatronics / Mechatronics Engg,
+Aeronautical Engg, Aerospace Engg, Mechanical and Automation Engg, Robotics and Automation
+
+Course: M.E. Computer Science Engineering
+Eligibility: B.E. / B.Tech. in any of the following:
+Information Technology, Computer Science and Engg., Software Engineering,
+Computer and Communication Engg., Electronics and Communication Engg,
+Information Science and Engineering, Computer Science,
+Artificial Intelligence and Data Science, Computer Science and Business Systems,
+Computer Science and Technology, Cyber Security,
+Artificial Intelligence and Machine Learning,
+Computer Science and Engineering (Artificial Intelligence),
+Computer Science and Engineering (Artificial Intelligence and Machine Learning),
+Computer Science and Engineering (Cyber Security)
+
+Course: M.E. Applied Electronics
+Eligibility: B.E. / B.Tech. in any of the following:
+Electronics and Communication Engineering, Electrical and Electronics Engineering,
+Electronics Engineering, Electronics and Instrumentation Engineering
+
+Course: M.E. Electronics and Communication (VLSI Design)
+Eligibility: B.E. / B.Tech. in any of the following:
+Electronics and Communication Engineering, Electrical and Electronics Engineering,
+Electronics and Instrumentation Engineering,
+Electronics and Telecommunication Engineering, Electronics Engineering
+
+Course: M.E. Electronics and Communication (Advanced Communication Technology)
+Eligibility: B.E. / B.Tech. in any of the following:
+Electronics and Communication Engineering, Electronics and Telecommunication Engineering

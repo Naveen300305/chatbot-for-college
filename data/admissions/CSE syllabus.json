@@ -1,0 +1,121 @@
+{
+  "course_name": "B.E. Computer Science and Engineering",
+  "regulation": "R24 (Regulation 2024)",
+  "duration": "4 Years (8 Semesters)",
+  "total_credits": 166,
+  "semester_wise_subjects": {
+    "Semester 1": [
+      "Induction Programme",
+      "Mathematics I – Calculus and Linear Algebra",
+      "Heritage of Tamils",
+      "Communicative English I",
+      "Professional Ethics and Universal Human Values",
+      "Engineering Physics",
+      "Digital System Design",
+      "C++ Programming",
+      "Employability Enhancement Course I"
+    ],
+    "Semester 2": [
+      "Mathematics II – Probability and Statistics",
+      "Tamils and Technology",
+      "Communicative English II",
+      "Web Development Essentials",
+      "Data Structures using C++",
+      "Database Management Systems",
+      "Introduction to Java Programming",
+      "Employability Enhancement Course II",
+      "NCC Credit Course Level 1 (Optional)"
+    ],
+    "Semester 3": [
+      "Discrete Mathematics",
+      "Operating Systems",
+      "Design and Analysis of Algorithms",
+      "Web Development Frameworks and Practices",
+      "Artificial Intelligence",
+      "Python Programming",
+      "Core Course Project I",
+      "Employability Enhancement Course III",
+      "Mandatory Course I"
+    ],
+    "Semester 4": [
+      "Theory of Computation",
+      "Computer Architecture",
+      "Machine Learning",
+      "Introduction to Cyber Security",
+      "Software Engineering",
+      "Computer Networks",
+      "Core Course Project II",
+      "Employability Enhancement Course IV",
+      "Mandatory Course II",
+      "NCC Credit Course Level 2 (Optional)"
+    ],
+    "Semester 5": [
+      "Compiler Design",
+      "Embedded Programming",
+      "Data Analytics and Visualization",
+      "Professional Elective I",
+      "Professional Elective II",
+      "Professional Elective III",
+      "Core Course Project III",
+      "Employability Enhancement Course V"
+    ],
+    "Semester 6": [
+      "Managerial Economics and Financial Accounting",
+      "Distributed Computing",
+      "Software Testing",
+      "Professional Elective IV",
+      "Professional Elective V",
+      "Open Elective I",
+      "Core Course Project IV"
+    ],
+    "Semester 7": [
+      "Professional Elective VI",
+      "Open Elective II",
+      "Project Phase I",
+      "Internship"
+    ],
+    "Semester 8": [
+      "Project Phase II"
+    ]
+  },
+  "key_highlights": {
+    "core_focus_areas": [
+      "Programming in C++ and Java",
+      "Data Structures and Algorithms",
+      "Artificial Intelligence and Machine Learning",
+      "Cyber Security",
+      "Data Analytics and Visualization",
+      "Distributed Computing",
+      "Software Engineering and Testing",
+      "Computer Networks and Architecture"
+    ],
+    "project_based_learning": [
+      "Core Course Project I to IV",
+      "Project Phase I",
+      "Project Phase II"
+    ],
+    "industry_readiness": [
+      "Internship in Semester VII",
+      "Employability Enhancement Courses across semesters",
+      "Professional Electives specialization tracks",
+      "Open Electives for interdisciplinary learning"
+    ],
+    "evaluation_scheme": {
+      "theory_courses": "40% Internal + 60% End Semester",
+      "practical_courses": "60% Internal + 40% End Semester",
+      "theory_cum_practical": "50% Internal + 50% End Semester",
+      "minimum_pass_requirement": "Minimum 50% separately in Internal and End Semester"
+    },
+    "total_credits_breakdown": {
+      "Humanities_and_Social_Sciences": 16,
+      "Basic_Sciences": 16,
+      "Engineering_Sciences": 16,
+      "Program_Core": 73,
+      "Professional_Electives": 18,
+      "Open_Electives": 6,
+      "Employability_Enhancement": 21,
+      "Mandatory_Courses": 0
+    },
+    "induction_program": "Catapult week-long orientation program introducing labs, COEs, clubs, and campus life."
+  }
+}

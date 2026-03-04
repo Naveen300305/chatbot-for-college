@@ -1,0 +1,135 @@
+{
+  "course_name": "B.Tech Computer Science and Business Systems",
+  "regulation": "Regulation 2024 (R24)",
+  "duration": "4 Years (8 Semesters)",
+  "total_credits": 163,
+  "semester_wise_subjects": {
+    "Semester 1": [
+      "Induction Programme",
+      "Mathematics – I (Calculus and Linear Algebra)",
+      "Heritage of Tamils",
+      "Communicative English – I",
+      "Professional Ethics and Universal Human Values",
+      "Engineering Physics",
+      "Digital System Design",
+      "C++ Programming",
+      "Employability Enhancement Skills – I"
+    ],
+    "Semester 2": [
+      "Mathematics – II (Probability and Statistics)",
+      "Tamils and Technology",
+      "Communicative English – II",
+      "Web Development Essentials",
+      "Data Structures using C++",
+      "Database Management Systems",
+      "Introduction to Java Programming",
+      "Employability Enhancement Skills – II",
+      "NCC Credit Course Level 1 (Optional)"
+    ],
+    "Semester 3": [
+      "Discrete Mathematics",
+      "Operating Systems",
+      "Design and Analysis of Algorithms",
+      "Web Development Frameworks and Practices",
+      "Fundamentals of Economics",
+      "Python Programming",
+      "Core Course Project – I",
+      "Employability Enhancement Skills – III",
+      "Mandatory Course – I"
+    ],
+    "Semester 4": [
+      "Computing Theory and Compiler Design",
+      "Computer Architecture",
+      "Introduction to Artificial Intelligence and Machine Learning",
+      "Financial Management",
+      "Software Engineering",
+      "Computer Networks",
+      "Core Course Project – II",
+      "Employability Enhancement Skills – IV",
+      "Mandatory Course – II",
+      "NCC Credit Course Level 2 (Optional)"
+    ],
+    "Semester 5": [
+      "Introduction to Business Systems",
+      "Fundamentals of Management",
+      "Data and Information Security",
+      "Professional Elective – I",
+      "Professional Elective – II",
+      "Professional Elective – III",
+      "Core Course Project – III",
+      "Employability Enhancement Skills – V"
+    ],
+    "Semester 6": [
+      "Advanced Design Thinking",
+      "Business Strategy",
+      "Business Analytics",
+      "Professional Elective – IV",
+      "Professional Elective – V",
+      "Open Elective – I",
+      "Core Course Project – IV",
+      "NCC Credit Course Level 3 (Optional)"
+    ],
+    "Semester 7": [
+      "Professional Elective – VI",
+      "Open Elective – II",
+      "Project Phase – I",
+      "Internship"
+    ],
+    "Semester 8": [
+      "Project Phase – II"
+    ]
+  },
+  "key_highlights": {
+    "interdisciplinary_focus": [
+      "Integration of Computer Science with Business Systems",
+      "Business Strategy and Financial Management included",
+      "Business Analytics and Data Security focus",
+      "Advanced Design Thinking for innovation"
+    ],
+    "technical_core_strength": [
+      "Data Structures and Algorithms",
+      "Operating Systems",
+      "Database Management Systems",
+      "Artificial Intelligence and Machine Learning",
+      "Computer Networks",
+      "Software Engineering",
+      "Python and Java Programming"
+    ],
+    "business_integration_courses": [
+      "Fundamentals of Economics",
+      "Financial Management",
+      "Introduction to Business Systems",
+      "Fundamentals of Management",
+      "Business Strategy",
+      "Business Analytics"
+    ],
+    "project_and_industry_exposure": [
+      "Core Course Projects I to IV",
+      "Project Phase I and Phase II",
+      "Internship in Semester VII"
+    ],
+    "credit_distribution": {
+      "Humanities_and_Social_Sciences": 13,
+      "Basic_Sciences": 16,
+      "Engineering_Sciences": 15,
+      "Program_Core": 74,
+      "Professional_Electives": 18,
+      "Open_Electives": 6,
+      "Employability_Enhancement_Courses": 21,
+      "Mandatory_Courses": 0
+    },
+    "evaluation_scheme": {
+      "theory_courses": "40% Internal + 60% End Semester",
+      "practical_courses": "60% Internal + 40% End Semester",
+      "theory_cum_practical": "50% Internal + 50% End Semester",
+      "project_assessment": "40% Internal Reviews + 20% Report + 40% Viva/Demonstration",
+      "minimum_pass_requirement": "Minimum 50% separately in Internal and End Semester"
+    },
+    "induction_program": "Catapult week-long orientation introducing labs, Centres of Excellence, student clubs, and departmental projects.",
+    "learning_beyond_classroom": [
+      "Encouragement to visit Centres of Excellence",
+      "Participation in hackathons and competitions",
+      "Industry-oriented practical exposure"
+    ]
+  }
+}

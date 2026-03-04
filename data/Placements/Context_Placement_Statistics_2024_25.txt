@@ -1,0 +1,17 @@
+The following data represents the placement summary statistics of Chennai Institute of Technology for the academic year 2024–2025.
+
+This dataset provides a structured breakdown of student participation in placements and overall placement performance for that year.
+
+It includes total student strength, number of students who registered for campus placements, number of students who opted for higher studies, total number of students placed, and the overall placement percentage.
+
+Metric Explanation
+
+Total Strength refers to the total number of final-year eligible students in the 2024–2025 batch.
+
+Registered for Placements indicates the number of students who actively participated in campus recruitment.
+
+Opted for Higher Studies represents students who chose postgraduate education instead of participating in placements.
+
+Number of Students Placed indicates the number of registered students who secured at least one job offer.
+
+Placement % represents the percentage of placed students calculated based on the number of students registered for placements.

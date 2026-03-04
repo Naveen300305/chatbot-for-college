@@ -1,0 +1,19 @@
+The following data represents placement statistics of Chennai Institute of Technology for a recent academic year. These metrics describe student placement performance, salary packages offered, and distribution of high-paying job offers.
+
+The values reflect overall placement success rate, total job offers received by students, highest salary package secured, number of premium salary offers, and average packages earned by top-performing students.
+
+Metric Definitions
+
+Overall Placement Percentage refers to the percentage of eligible students who secured job offers.
+
+Total Offers indicates the total number of job offers received across all departments.
+
+Highest Package represents the highest annual salary package offered to a student (measured in LPA – Lakhs Per Annum).
+
+Offers Above ₹20 LPA indicates the number of job offers with salary packages greater than ₹20 Lakhs Per Annum.
+
+Offers Above ₹10 LPA indicates the number of job offers with salary packages greater than ₹10 Lakhs Per Annum.
+
+Top 10% Average Package represents the average salary package earned by the top 10% highest-performing placed students.
+
+Top 20% Average Package represents the average salary package earned by the top 20% highest-performing placed students.

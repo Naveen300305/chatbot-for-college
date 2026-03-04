@@ -1,0 +1,974 @@
+{
+  "institution": "Chennai Institute of Technology",
+  "regulation": "R24 (Regulation 2024)",
+  "last_updated": "2024",
+  "total_courses": 9,
+  "courses": [
+    {
+      "course_name": "B.Tech Artificial Intelligence and Data Science",
+      "regulation": "R24 (Regulation 2024)",
+      "duration": "4 Years (8 Semesters)",
+      "total_credits": 169,
+      "semester_wise_subjects": {
+        "Semester 1": [
+          "Induction Programme",
+          "Mathematics I – Calculus and Linear Algebra",
+          "Heritage of Tamils",
+          "Communicative English I",
+          "Engineering Physics",
+          "Artificial Intelligence",
+          "C++ Programming",
+          "Digital Design and Computer Organization",
+          "Employability Enhancement Skills I"
+        ],
+        "Semester 2": [
+          "Mathematics II – Probability and Statistics",
+          "Tamils and Technology",
+          "Communicative English II",
+          "Web Development Essentials",
+          "Data Structures Using C++",
+          "Database Management Systems",
+          "Introduction to Java Programming",
+          "Employability Enhancement Skills II",
+          "NCC Credit Course Level 1 (Optional)"
+        ],
+        "Semester 3": [
+          "Discrete Mathematics",
+          "Operating System",
+          "Design and Analysis of Algorithms",
+          "Web Development Frameworks and Practices",
+          "Data Science and Visualization",
+          "Parallel Processing through Python",
+          "Employability Enhancement Skills III",
+          "Core Course Project I",
+          "Mandatory Course I"
+        ],
+        "Semester 4": [
+          "Computing Theory and Compiler Design",
+          "Big Data Analytics",
+          "Machine Learning",
+          "Data Warehousing and Data Mining",
+          "Artificial Intelligence of Things (AIoT)",
+          "Computer Networks",
+          "Employability Enhancement Skills IV",
+          "Core Course Project II",
+          "Mandatory Course II",
+          "NCC Credit Course Level 2 (Optional)"
+        ],
+        "Semester 5": [
+          "Natural Language Processing",
+          "Deep Learning",
+          "Reinforcement Learning",
+          "Professional Elective I",
+          "Professional Elective II",
+          "Professional Elective III",
+          "Employability Enhancement Skills V",
+          "Core Course Project III"
+        ],
+        "Semester 6": [
+          "Cloud and Distributed Computing",
+          "Generative AI",
+          "Computer Vision",
+          "Professional Elective IV",
+          "Professional Elective V",
+          "Open Elective I",
+          "Core Course Project IV",
+          "NCC Credit Course Level 3 (Optional)"
+        ],
+        "Semester 7": [
+          "Professional Ethics and Universal Human Values",
+          "Professional Elective VI",
+          "Open Elective II",
+          "Internship",
+          "Project Work Phase I"
+        ],
+        "Semester 8": [
+          "Project Work Phase II"
+        ]
+      },
+      "key_highlights": {
+        "core_focus_areas": [
+          "Artificial Intelligence", "Machine Learning", "Deep Learning",
+          "Natural Language Processing", "Reinforcement Learning", "Generative AI",
+          "Computer Vision", "Big Data Analytics", "Data Warehousing and Data Mining",
+          "Cloud and Distributed Computing", "Parallel Processing", "AIoT"
+        ],
+        "project_based_learning": [
+          "Core Course Project I", "Core Course Project II",
+          "Core Course Project III", "Core Course Project IV",
+          "Internship", "Project Work Phase I", "Project Work Phase II"
+        ],
+        "industry_alignment": [
+          "Full AI pipeline coverage from foundations to Generative AI",
+          "Hands-on implementation via lab-integrated courses",
+          "Internship in Semester VII",
+          "Professional Electives for specialization",
+          "Open Electives for interdisciplinary exposure"
+        ],
+        "evaluation_scheme": {
+          "theory_courses": "40% Internal + 60% End Semester",
+          "practical_courses": "60% Internal + 40% End Semester",
+          "theory_cum_practical": "50% Internal + 50% End Semester",
+          "project_assessment": "40% Internal Reviews + 20% Report + 40% Viva/Demonstration",
+          "minimum_pass_requirement": "Minimum 50% separately in Internal and End Semester"
+        },
+        "credit_distribution": {
+          "Humanities_and_Social_Sciences": 13,
+          "Basic_Sciences": 16,
+          "Engineering_Sciences": 12,
+          "Program_Core": 83,
+          "Professional_Electives": 18,
+          "Open_Electives": 6,
+          "Employability_Enhancement_Skills": 21,
+          "Mandatory_Courses": 0
+        },
+        "induction_program": "Catapult week-long orientation introducing labs, COEs, projects, clubs, and collaborative culture."
+      }
+    },
+    {
+      "course_name": "B.E. Computer Science and Engineering (Artificial Intelligence and Machine Learning)",
+      "regulation": "R24 (Regulation 2024)",
+      "duration": "4 Years (8 Semesters)",
+      "total_credits": 168,
+      "semester_wise_subjects": {
+        "Semester 1": [
+          "Induction Program",
+          "Mathematics – I (Calculus and Linear Algebra)",
+          "Heritage of Tamils",
+          "Communicative English – I",
+          "Engineering Physics",
+          "Artificial Intelligence",
+          "Digital System Design",
+          "C++ Programming",
+          "Employability Enhancement Skills – I"
+        ],
+        "Semester 2": [
+          "Mathematics – II (Probability and Statistics)",
+          "Tamils and Technology",
+          "Communicative English – II",
+          "Web Development Essentials",
+          "Data Structures using C++",
+          "Database Management Systems",
+          "Introduction to Java Programming",
+          "Employability Enhancement Skills – II"
+        ],
+        "Semester 3": [
+          "Discrete Mathematics",
+          "Operating Systems",
+          "Design and Analysis of Algorithms",
+          "Web Development Frameworks and Practices",
+          "Foundation of Data Science",
+          "Parallel Programming through Python",
+          "Core Course Project – I",
+          "Employability Enhancement Skills – III",
+          "Mandatory Course – I"
+        ],
+        "Semester 4": [
+          "Computing Theory and Compiler Design",
+          "Machine Learning",
+          "Modern Computer Architecture",
+          "Data Warehousing and Data Mining",
+          "Big Data Analytics",
+          "Computer Networks",
+          "Core Course Project – II",
+          "Employability Enhancement Skills – IV",
+          "Mandatory Course – II"
+        ],
+        "Semester 5": [
+          "Natural Language Processing",
+          "Federated Learning",
+          "Reinforcement Learning",
+          "Professional Elective – I",
+          "Professional Elective – II",
+          "Professional Elective – III",
+          "Core Course Project – III",
+          "Employability Enhancement Skills – V"
+        ],
+        "Semester 6": [
+          "Machine Learning Operations",
+          "Generative AI",
+          "Deep Learning for Vision",
+          "Professional Elective – IV",
+          "Professional Elective – V",
+          "Open Elective – I",
+          "Core Course Project – IV"
+        ],
+        "Semester 7": [
+          "Professional Ethics and Universal Human Values",
+          "Professional Elective – VI",
+          "Open Elective – II",
+          "Internship",
+          "Project Phase – I"
+        ],
+        "Semester 8": [
+          "Project Phase – II"
+        ]
+      },
+      "key_highlights": {
+        "core_specialization_focus": [
+          "Artificial Intelligence", "Machine Learning", "Deep Learning",
+          "Natural Language Processing", "Reinforcement Learning", "Federated Learning",
+          "Generative AI", "Machine Learning Operations", "Big Data Analytics",
+          "Data Warehousing and Mining"
+        ],
+        "strong_foundation_courses": [
+          "Discrete Mathematics", "Operating Systems",
+          "Design and Analysis of Algorithms", "Computer Networks",
+          "Modern Computer Architecture", "Database Management Systems"
+        ],
+        "project_based_learning": [
+          "Core Course Project I to IV", "Internship in Semester VII",
+          "Project Phase I", "Project Phase II"
+        ],
+        "credit_distribution": {
+          "Humanities_and_Social_Sciences": 13,
+          "Basic_Sciences": 16,
+          "Engineering_Sciences": 16,
+          "Program_Core": 78,
+          "Professional_Electives": 18,
+          "Open_Electives": 6,
+          "Employability_Enhancement_Courses": 21,
+          "Mandatory_Courses": 0
+        },
+        "evaluation_scheme": {
+          "theory_courses": "40% Internal + 60% End Semester",
+          "practical_courses": "60% Internal + 40% End Semester",
+          "theory_cum_practical": "50% Internal + 50% End Semester",
+          "project_assessment": "40% Internal Reviews + 20% Report + 40% Viva/Demonstration",
+          "minimum_pass_requirement": "Minimum 50% separately in Internal and End Semester"
+        },
+        "learning_beyond_classroom": [
+          "Catapult induction program",
+          "Centers of Excellence exposure",
+          "Hackathons and competitions",
+          "Industry-oriented projects"
+        ]
+      }
+    },
+    {
+      "course_name": "B.Tech Computer Science and Business Systems",
+      "regulation": "R24 (Regulation 2024)",
+      "duration": "4 Years (8 Semesters)",
+      "total_credits": 163,
+      "semester_wise_subjects": {
+        "Semester 1": [
+          "Induction Programme",
+          "Mathematics – I (Calculus and Linear Algebra)",
+          "Heritage of Tamils",
+          "Communicative English – I",
+          "Professional Ethics and Universal Human Values",
+          "Engineering Physics",
+          "Digital System Design",
+          "C++ Programming",
+          "Employability Enhancement Skills – I"
+        ],
+        "Semester 2": [
+          "Mathematics – II (Probability and Statistics)",
+          "Tamils and Technology",
+          "Communicative English – II",
+          "Web Development Essentials",
+          "Data Structures using C++",
+          "Database Management Systems",
+          "Introduction to Java Programming",
+          "Employability Enhancement Skills – II",
+          "NCC Credit Course Level 1 (Optional)"
+        ],
+        "Semester 3": [
+          "Discrete Mathematics",
+          "Operating Systems",
+          "Design and Analysis of Algorithms",
+          "Web Development Frameworks and Practices",
+          "Fundamentals of Economics",
+          "Python Programming",
+          "Core Course Project – I",
+          "Employability Enhancement Skills – III",
+          "Mandatory Course – I"
+        ],
+        "Semester 4": [
+          "Computing Theory and Compiler Design",
+          "Computer Architecture",
+          "Introduction to Artificial Intelligence and Machine Learning",
+          "Financial Management",
+          "Software Engineering",
+          "Computer Networks",
+          "Core Course Project – II",
+          "Employability Enhancement Skills – IV",
+          "Mandatory Course – II",
+          "NCC Credit Course Level 2 (Optional)"
+        ],
+        "Semester 5": [
+          "Introduction to Business Systems",
+          "Fundamentals of Management",
+          "Data and Information Security",
+          "Professional Elective – I",
+          "Professional Elective – II",
+          "Professional Elective – III",
+          "Core Course Project – III",
+          "Employability Enhancement Skills – V"
+        ],
+        "Semester 6": [
+          "Advanced Design Thinking",
+          "Business Strategy",
+          "Business Analytics",
+          "Professional Elective – IV",
+          "Professional Elective – V",
+          "Open Elective – I",
+          "Core Course Project – IV",
+          "NCC Credit Course Level 3 (Optional)"
+        ],
+        "Semester 7": [
+          "Professional Elective – VI",
+          "Open Elective – II",
+          "Project Phase – I",
+          "Internship"
+        ],
+        "Semester 8": [
+          "Project Phase – II"
+        ]
+      },
+      "key_highlights": {
+        "interdisciplinary_focus": [
+          "Integration of Computer Science with Business Systems",
+          "Business Strategy and Financial Management included",
+          "Business Analytics and Data Security focus",
+          "Advanced Design Thinking for innovation"
+        ],
+        "technical_core_strength": [
+          "Data Structures and Algorithms", "Operating Systems",
+          "Database Management Systems", "Artificial Intelligence and Machine Learning",
+          "Computer Networks", "Software Engineering", "Python and Java Programming"
+        ],
+        "business_integration_courses": [
+          "Fundamentals of Economics", "Financial Management",
+          "Introduction to Business Systems", "Fundamentals of Management",
+          "Business Strategy", "Business Analytics"
+        ],
+        "project_and_industry_exposure": [
+          "Core Course Projects I to IV", "Project Phase I and Phase II",
+          "Internship in Semester VII"
+        ],
+        "credit_distribution": {
+          "Humanities_and_Social_Sciences": 13,
+          "Basic_Sciences": 16,
+          "Engineering_Sciences": 15,
+          "Program_Core": 74,
+          "Professional_Electives": 18,
+          "Open_Electives": 6,
+          "Employability_Enhancement_Courses": 21,
+          "Mandatory_Courses": 0
+        },
+        "evaluation_scheme": {
+          "theory_courses": "40% Internal + 60% End Semester",
+          "practical_courses": "60% Internal + 40% End Semester",
+          "theory_cum_practical": "50% Internal + 50% End Semester",
+          "project_assessment": "40% Internal Reviews + 20% Report + 40% Viva/Demonstration",
+          "minimum_pass_requirement": "Minimum 50% separately in Internal and End Semester"
+        },
+        "induction_program": "Catapult week-long orientation introducing labs, Centres of Excellence, student clubs, and departmental projects.",
+        "learning_beyond_classroom": [
+          "Encouragement to visit Centres of Excellence",
+          "Participation in hackathons and competitions",
+          "Industry-oriented practical exposure"
+        ]
+      }
+    },
+    {
+      "course_name": "B.E. Electronics and Communication Engineering",
+      "regulation": "R24 (Regulation 2024)",
+      "duration": "4 Years (8 Semesters)",
+      "total_credits": 167,
+      "semester_wise_subjects": {
+        "Semester 1": [
+          "Induction Programme",
+          "Matrices and Calculus",
+          "Communicative English I",
+          "Engineering Physics",
+          "Problem Solving using C Programming",
+          "Electronic Devices and Circuits",
+          "Digital System Design",
+          "Heritage of Tamils",
+          "Employability Enhancement Skills I"
+        ],
+        "Semester 2": [
+          "Statistics and Numerical Methods",
+          "Communicative English – II",
+          "Electronic Circuits",
+          "Circuit Theory",
+          "C++ Programming",
+          "Data Structures and Algorithm using C",
+          "Tamils and Technology",
+          "Employability Enhancement Skills – II",
+          "NCC Credit Course Level 1 (Optional)"
+        ],
+        "Semester 3": [
+          "Mathematical Methods for Engineering",
+          "Signals and Systems",
+          "Microprocessors and Microcontrollers",
+          "Analog Integrated Circuits",
+          "Communication Systems",
+          "Object Oriented Programming in JAVA",
+          "Employability Enhancement Skills – III",
+          "Mandatory Course – I",
+          "Core Course Project – I"
+        ],
+        "Semester 4": [
+          "Electromagnetic Fields",
+          "Digital Communication",
+          "Embedded Programming",
+          "Digital Signal Processing",
+          "VLSI Design",
+          "Fundamentals of Data Science and Machine Learning",
+          "Core Course Project – II",
+          "Employability Enhancement Skills – IV",
+          "Mandatory Course – II",
+          "NCC Credit Course Level 2 (Optional)"
+        ],
+        "Semester 5": [
+          "Transmission Lines and RF Design",
+          "Control System",
+          "Antennas and Microwave Engineering",
+          "Professional Elective I",
+          "Professional Elective II",
+          "Professional Elective – III",
+          "Core Course Project – III"
+        ],
+        "Semester 6": [
+          "Computer Vision and Image Processing",
+          "Wireless Communication",
+          "Communication Networks and Security",
+          "Professional Elective – IV",
+          "Professional Elective – V",
+          "Open Elective – I",
+          "Core Course Project – IV",
+          "NCC Credit Course Level 3 (Optional)"
+        ],
+        "Semester 7": [
+          "Software Defined Radio",
+          "Optical Communication and Networks",
+          "Professional Elective – VI",
+          "Open Elective – II",
+          "Internship",
+          "Project Work – Phase I"
+        ],
+        "Semester 8": [
+          "Project Work – Phase II"
+        ]
+      },
+      "key_highlights": {
+        "core_focus_areas": [
+          "Electronic Devices and Circuits", "Digital System Design",
+          "Signals and Systems", "Communication Systems",
+          "Digital Signal Processing", "VLSI Design", "Embedded Systems",
+          "Wireless Communication", "RF and Microwave Engineering",
+          "Optical Communication", "Software Defined Radio", "Computer Vision"
+        ],
+        "project_based_learning": [
+          "Core Course Project I to IV", "Internship in Semester VII",
+          "Project Work Phase I", "Project Work Phase II"
+        ],
+        "industry_relevance": [
+          "Strong foundation in Analog and Digital Communication",
+          "Integration of Embedded and VLSI technologies",
+          "RF, Optical and Wireless Communication exposure",
+          "Data Science and Machine Learning integration",
+          "Professional Electives for specialization tracks"
+        ],
+        "evaluation_scheme": {
+          "theory_courses": "40% Internal + 60% End Semester",
+          "practical_courses": "60% Internal + 40% End Semester",
+          "theory_cum_practical": "50% Internal + 50% End Semester",
+          "project_assessment": "40% Internal Reviews + 20% Report + 40% Viva/Demonstration",
+          "minimum_pass_requirement": "Minimum 50% separately in Internal and End Semester"
+        },
+        "credit_distribution": {
+          "Humanities_and_Social_Sciences": 10,
+          "Basic_Sciences": 16,
+          "Engineering_Sciences": 20,
+          "Program_Core": 81,
+          "Professional_Electives": 18,
+          "Open_Electives": 6,
+          "Employability_Enhancement_Skills": 16,
+          "Mandatory_Courses": 0
+        },
+        "induction_program": "Catapult week-long orientation introducing labs, COEs, departmental projects, clubs, and academic ecosystem."
+      }
+    },
+    {
+      "course_name": "B.E. Electrical and Electronics Engineering",
+      "regulation": "R24 (Regulation 2024)",
+      "duration": "4 Years (8 Semesters)",
+      "total_credits": 166,
+      "semester_wise_subjects": {
+        "Semester 1": [
+          "Heritage of Tamils",
+          "Mathematics-I – Calculus and Linear Algebra",
+          "Communicative English – I",
+          "Engineering Physics",
+          "Electric Circuit Analysis",
+          "Sensors and Instrumentation Systems",
+          "Problem Solving using C Programming",
+          "Employability Enhancement Skills – I"
+        ],
+        "Semester 2": [
+          "Mathematics-II – Probability and Statistics",
+          "Tamils and Technology",
+          "Electro Magnetic Field Theory",
+          "Communicative English – II",
+          "Electronic Devices and Circuits",
+          "Digital Logic Circuits",
+          "Data Structures using C Programming",
+          "Employability Enhancement Skills – II",
+          "NCC Credit Course Level 1 (Optional)"
+        ],
+        "Semester 3": [
+          "Mathematics-III – Mathematical Methods for Engineering",
+          "Signals and Systems",
+          "DC Machines and Transformers",
+          "Analog Integrated Circuits",
+          "Microprocessor and Microcontroller",
+          "Object Oriented Programming in JAVA",
+          "Employability Enhancement Skills – III",
+          "Core Course Project – I",
+          "Mandatory Course – I"
+        ],
+        "Semester 4": [
+          "Numerical Methods",
+          "Transmission and Distribution",
+          "Advanced Database Management System",
+          "Synchronous and Induction Machines",
+          "Control Systems Engineering",
+          "Power Electronics",
+          "Core Course Project – II",
+          "Employability Enhancement Skills – IV",
+          "Mandatory Course – II",
+          "NCC Credit Course Level 2 (Optional)"
+        ],
+        "Semester 5": [
+          "Embedded System Design",
+          "Special Electrical Machines",
+          "Power System Analysis",
+          "Professional Elective – I",
+          "Professional Elective – II",
+          "Core Course Project – III",
+          "Employability Enhancement Skills – V"
+        ],
+        "Semester 6": [
+          "High Voltage Engineering",
+          "Protection and Switchgear",
+          "Power System Operation and Control",
+          "Professional Elective – III",
+          "Professional Elective – IV",
+          "Open Elective – I",
+          "Core Course Project – IV",
+          "NCC Credit Course Level 3 (Optional)"
+        ],
+        "Semester 7": [
+          "Electric Energy Generation, Utilization and Conservation",
+          "Principles of Management",
+          "Professional Elective – V",
+          "Professional Elective – VI",
+          "Open Elective – II",
+          "Project Work – Phase I"
+        ],
+        "Semester 8": [
+          "Project Work – Phase II"
+        ]
+      },
+      "key_highlights": {
+        "core_focus_areas": [
+          "Electric Circuit Analysis", "Electromagnetic Field Theory",
+          "Electrical Machines", "Power Systems", "Power Electronics",
+          "Control Systems", "Embedded Systems", "High Voltage Engineering",
+          "Protection and Switchgear", "Energy Generation and Conservation"
+        ],
+        "project_based_learning": [
+          "Core Course Project I to IV",
+          "Project Work Phase I", "Project Work Phase II"
+        ],
+        "industry_relevance": [
+          "Strong foundation in power generation, transmission and distribution",
+          "Exposure to embedded and control systems",
+          "Professional and open electives for specialization",
+          "Integration of software tools and database systems",
+          "Employability Enhancement Skills across semesters"
+        ],
+        "evaluation_scheme": {
+          "theory_courses": "40% Internal + 60% End Semester",
+          "practical_courses": "60% Internal + 40% End Semester",
+          "theory_cum_practical": "50% Internal + 50% End Semester",
+          "project_assessment": "40% Internal Reviews + 20% Report + 40% Viva/Demonstration",
+          "minimum_pass_requirement": "Minimum 50% separately in Internal and End Semester"
+        },
+        "credit_distribution": {
+          "Humanities_and_Social_Sciences": 13,
+          "Basic_Sciences": 20,
+          "Engineering_Sciences": 15,
+          "Program_Core": 77,
+          "Professional_Electives": 18,
+          "Open_Electives": 6,
+          "Employability_Enhancement_Skills": 17,
+          "Mandatory_Courses": 0
+        },
+        "induction_program": "Catapult week-long orientation introducing labs, Centers of Excellence, departmental projects, clubs, and collaborative activities."
+      }
+    },
+    {
+      "course_name": "B.Tech Information Technology",
+      "regulation": "R24 (Regulation 2024)",
+      "duration": "4 Years (8 Semesters)",
+      "total_credits": 166,
+      "semester_wise_subjects": {
+        "Semester 1": [
+          "Induction Programme",
+          "Mathematics – I (Calculus and Linear Algebra)",
+          "Professional Ethics and Universal Human Values",
+          "Heritage of Tamils",
+          "Communicative English – I",
+          "Engineering Physics",
+          "Digital System Design",
+          "C++ Programming",
+          "Employability Enhancement Course – I"
+        ],
+        "Semester 2": [
+          "Mathematics – II (Probability and Statistics)",
+          "Tamils and Technology",
+          "Communicative English – II",
+          "Web Development Essentials",
+          "Data Structures using C++",
+          "Database Management Systems",
+          "Introduction to Java Programming",
+          "Employability Enhancement Course – II",
+          "NCC Credit Course Level 1 (Optional)"
+        ],
+        "Semester 3": [
+          "Discrete Mathematics",
+          "Operating Systems",
+          "Design and Analysis of Algorithms",
+          "Web Development Frameworks and Practices",
+          "Ethical Hacking",
+          "Python Programming",
+          "Core Course Project – I",
+          "Employability Enhancement Course – III",
+          "Mandatory Course – I"
+        ],
+        "Semester 4": [
+          "Computing Theory and Compiler Design",
+          "Computer Architecture",
+          "Introduction to Artificial Intelligence and Machine Learning",
+          "Introduction to Cyber Security",
+          "Software Engineering",
+          "Computer Networks",
+          "Core Course Project – II",
+          "Employability Enhancement Course – IV",
+          "Mandatory Course – II",
+          "NCC Credit Course Level 2 (Optional)"
+        ],
+        "Semester 5": [
+          "Principles of Communication Systems",
+          "Embedded Programming",
+          "Data Analytics and Visualization",
+          "Professional Elective – I",
+          "Professional Elective – II",
+          "Professional Elective – III",
+          "Core Course Project – III",
+          "Employability Enhancement Course – V"
+        ],
+        "Semester 6": [
+          "Managerial Economics and Financial Accounting",
+          "Cloud and Distributed Computing",
+          "Mobile Computing",
+          "Professional Elective – IV",
+          "Professional Elective – V",
+          "Open Elective – I",
+          "Core Course Project – IV"
+        ],
+        "Semester 7": [
+          "Professional Elective – VI",
+          "Open Elective – II",
+          "Project Phase – I",
+          "Internship"
+        ],
+        "Semester 8": [
+          "Project Phase – II"
+        ]
+      },
+      "key_highlights": {
+        "core_focus_areas": [
+          "Data Structures and Algorithms", "Operating Systems", "Computer Networks",
+          "Database Management Systems", "Artificial Intelligence and Machine Learning",
+          "Cyber Security", "Cloud and Distributed Computing", "Mobile Computing",
+          "Data Analytics and Visualization", "Embedded Programming"
+        ],
+        "credit_distribution": {
+          "Humanities_and_Social_Sciences": 16,
+          "Basic_Sciences": 16,
+          "Engineering_Sciences": 16,
+          "Program_Core_Courses": 73,
+          "Professional_Electives": 18,
+          "Open_Electives": 6,
+          "Employability_Enhancement_Courses": 21,
+          "Mandatory_Courses": 0
+        },
+        "project_based_learning": [
+          "Core Course Project I to IV",
+          "Project Phase I", "Project Phase II",
+          "Internship in Semester VII"
+        ],
+        "evaluation_scheme": {
+          "theory_courses": "40% Internal + 60% End Semester",
+          "practical_courses": "60% Internal + 40% End Semester",
+          "theory_cum_practical": "50% Internal + 50% End Semester",
+          "project_assessment": "40% Internal Reviews + 20% Report + 40% Viva/Demonstration",
+          "minimum_pass_requirement": "Minimum 50% separately in Internal and End Semester"
+        },
+        "induction_program": "Catapult week-long orientation introducing labs, Centers of Excellence, student clubs, and departmental projects.",
+        "learning_beyond_classroom": [
+          "Encouraged participation in hackathons and competitions",
+          "Exposure to Centers of Excellence",
+          "Industry-oriented practical exposure",
+          "GitHub-based deployment and modern development practices"
+        ]
+      }
+    },
+    {
+      "course_name": "B.E. Mechatronics Engineering",
+      "regulation": "R24 (Regulation 2024)",
+      "duration": "4 Years (8 Semesters)",
+      "total_credits": 170,
+      "semester_wise_subjects": {
+        "Semester 1": [
+          "Heritage of Tamils",
+          "Calculus and Linear Algebra",
+          "Communicative English – I",
+          "Engineering Physics",
+          "Problem Solving using C Programming",
+          "Engineering Graphics",
+          "Engineering Mechanics",
+          "Employability Enhancement Skills – I"
+        ],
+        "Semester 2": [
+          "Tamils and Technology",
+          "Probability and Statistics",
+          "Data Structures",
+          "Communicative English – II",
+          "Material Science",
+          "Problem Solving using Python Programming",
+          "Electronic Devices and Circuits",
+          "Employability Enhancement Skills – II",
+          "NCC Credit Course Level 1 (Optional)"
+        ],
+        "Semester 3": [
+          "Mathematical Methods for Engineering",
+          "Digital Electronics and Microcontroller",
+          "Fluid Mechanics and Thermal System",
+          "Artificial Intelligence and Machine Learning Fundamentals",
+          "Object Oriented Programming",
+          "Electrical Drives and Actuators",
+          "Core Course Project – I",
+          "Employability Enhancement Skills – III",
+          "Mandatory Course – I"
+        ],
+        "Semester 4": [
+          "Numerical Methods",
+          "Mechanics of Materials",
+          "Control System Engineering",
+          "Sensors, Measurements and Instrumentation",
+          "Kinematics and Dynamics of Machinery",
+          "Manufacturing Technology",
+          "Computer Aided Design and Modelling Laboratory",
+          "Core Course Project – II",
+          "Employability Enhancement Skills – IV",
+          "Mandatory Course – II",
+          "NCC Credit Course Level 2 (Optional)"
+        ],
+        "Semester 5": [
+          "Design of Machine Elements",
+          "Professional Elective – I",
+          "Professional Elective – II",
+          "Professional Elective – III",
+          "Computer Aided Design and Manufacturing",
+          "Fluid Power System for Automation",
+          "Core Course Project – III",
+          "Employability Enhancement Skills – V"
+        ],
+        "Semester 6": [
+          "Design of Mechatronics System",
+          "Open Elective – I",
+          "Professional Elective – IV",
+          "Professional Elective – V",
+          "Robotics and Machine Vision Systems",
+          "Industrial Automation",
+          "Core Course Project – IV",
+          "NCC Credit Course Level 3 (Optional)"
+        ],
+        "Semester 7": [
+          "Professional Ethics in Engineering",
+          "Embedded and Real Time Operating Systems",
+          "Open Elective – II",
+          "Professional Elective – VI",
+          "Internet of Things – Concepts and Applications",
+          "Project Work – Phase I"
+        ],
+        "Semester 8": [
+          "Project Work – Phase II"
+        ]
+      },
+      "key_highlights": {
+        "core_focus_areas": [
+          "Digital Electronics and Microcontrollers", "Electrical Drives and Actuators",
+          "Control Systems Engineering", "Sensors and Instrumentation",
+          "Robotics and Machine Vision", "Industrial Automation", "Embedded Systems",
+          "Internet of Things", "Fluid Power Systems", "Manufacturing Technology"
+        ],
+        "interdisciplinary_strength": [
+          "Integration of Mechanical, Electrical, Electronics and Computer Engineering",
+          "AI and Machine Learning fundamentals included",
+          "CAD and CAM integration",
+          "Automation and Robotics specialization options"
+        ],
+        "project_based_learning": [
+          "Core Course Project I to IV",
+          "Project Work Phase I", "Project Work Phase II"
+        ],
+        "elective_clusters": [
+          "Applied Robotics", "Electronics, Networking and Automation",
+          "Design and Manufacturing", "Autonomous Vehicle Technology",
+          "Cognitive Automation Systems", "Management Courses"
+        ],
+        "evaluation_scheme": {
+          "theory_courses": "40% Internal + 60% End Semester",
+          "practical_courses": "60% Internal + 40% End Semester",
+          "theory_cum_practical": "50% Internal + 50% End Semester",
+          "project_assessment": "40% Internal Reviews + 20% Report + 40% Viva/Demonstration",
+          "minimum_pass_requirement": "Minimum 50% separately in Internal and End Semester"
+        },
+        "learning_beyond_classroom": [
+          "Encouragement to visit Centers of Excellence (COEs)",
+          "Participation in hackathons and competitions",
+          "Industry-relevant practical exposure"
+        ],
+        "induction_program": "Catapult week-long orientation introducing labs, Centers of Excellence, departmental projects, and student clubs."
+      }
+    },
+    {
+      "course_name": "B.E. Mechanical Engineering",
+      "regulation": "R24 (Regulation 2024)",
+      "duration": "4 Years (8 Semesters)",
+      "total_credits": 169,
+      "semester_wise_subjects": {
+        "Semester 1": [
+          "Heritage of Tamils",
+          "Mathematics I – Calculus and Linear Algebra",
+          "Engineering Mechanics",
+          "Communicative English I",
+          "Engineering Physics",
+          "Problem Solving Using C Programming",
+          "Engineering Graphics",
+          "Employability Enhancement Skills I"
+        ],
+        "Semester 2": [
+          "Tamils and Technology",
+          "Mathematics II – Probability and Statistics",
+          "Manufacturing Technology I",
+          "Problem Solving Using Python Programming",
+          "Fundamentals of Electrical and Electronics Engineering",
+          "Material Science",
+          "Communicative English II",
+          "Employability Enhancement Skills II",
+          "NCC Credit Course Level 1 (Optional)"
+        ],
+        "Semester 3": [
+          "Mathematics III – Mathematical Methods for Engineering",
+          "Engineering Thermodynamics",
+          "Mandatory Course I",
+          "Fluid Mechanics and Machinery",
+          "Manufacturing Technology II",
+          "Object Oriented Programming",
+          "Solid Mechanics",
+          "Core Course Project I",
+          "Employability Enhancement Skills III"
+        ],
+        "Semester 4": [
+          "Mathematics IV – Numerical Methods",
+          "Design of Machine Elements",
+          "Engineering Metallurgy",
+          "Mandatory Course II",
+          "Mechanics of Machines",
+          "Thermal Engineering",
+          "Welding Technology",
+          "Core Course Project II",
+          "Employability Enhancement Skills IV",
+          "NCC Credit Course Level 2 (Optional)"
+        ],
+        "Semester 5": [
+          "Design of Transmission Systems",
+          "Heat and Mass Transfer",
+          "Professional Elective I",
+          "Professional Elective II",
+          "Professional Elective III",
+          "Product Life Cycle Management",
+          "Core Course Project III",
+          "Employability Enhancement Skills V"
+        ],
+        "Semester 6": [
+          "Mechatronics",
+          "Professional Elective IV",
+          "Professional Elective V",
+          "Open Elective I",
+          "Finite Element Analysis",
+          "Computer Aided Design and Manufacturing",
+          "Mini Project",
+          "NCC Credit Course Level 3 (Optional)"
+        ],
+        "Semester 7": [
+          "Process Planning and Cost Estimation",
+          "Automobile Engineering",
+          "Industrial Internet of Things",
+          "Professional Elective VI",
+          "Open Elective II",
+          "Internship",
+          "Project Phase I"
+        ],
+        "Semester 8": [
+          "Project Phase II"
+        ]
+      },
+      "key_highlights": {
+        "core_focus_areas": [
+          "Manufacturing Technology", "Thermodynamics and Thermal Engineering",
+          "Fluid Mechanics", "Solid Mechanics", "Design of Machine Elements",
+          "Finite Element Analysis", "Mechatronics",
+          "Industrial Internet of Things", "Computer Aided Design and Manufacturing"
+        ],
+        "project_based_learning": [
+          "Core Course Project I", "Core Course Project II",
+          "Core Course Project III", "Mini Project",
+          "Project Phase I", "Project Phase II"
+        ],
+        "industry_readiness": [
+          "Internship in Semester VII",
+          "Employability Enhancement Skills across semesters",
+          "Professional Electives for specialization",
+          "Open Electives for interdisciplinary exposure"
+        ],
+        "evaluation_scheme": {
+          "theory_courses": "40% Internal + 60% End Semester",
+          "practical_courses": "60% Internal + 40% End Semester",
+          "theory_cum_practical": "50% Internal + 50% End Semester",
+          "minimum_pass_requirement": "Minimum 50% separately in Internal and End Semester"
+        },
+        "credit_distribution": {
+          "Humanities_and_Social_Sciences": 10,
+          "Basic_Sciences": 24,
+          "Engineering_Sciences": 24,
+          "Program_Core": 68,
+          "Professional_Electives": 18,
+          "Open_Electives": 6,
+          "Employability_Enhancement_Skills": 19,
+          "Mandatory_Courses": 0
+        },
+        "induction_program": "Catapult week-long orientation introducing labs, COEs, clubs, and campus integration."
+      }
+    }
+  ]
+}

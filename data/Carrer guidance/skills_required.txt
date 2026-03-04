@@ -1,0 +1,93 @@
+Skills Required for Key Career Paths - Chennai Institute of Technology
+----------------------------------------------------------------------
+
+Career: Software Developer / Full Stack Developer
+Technical Skills:
+- Programming: Python, Java, C++, JavaScript
+- Web: HTML, CSS, React.js, Node.js, REST APIs
+- Database: MySQL, MongoDB, PostgreSQL
+- Tools: Git, Docker, Linux
+- Cloud: AWS, Azure basics
+Soft Skills: Problem solving, teamwork, communication
+
+Career: Data Scientist / Data Analyst
+Technical Skills:
+- Programming: Python (Pandas, NumPy, Scikit-learn), R
+- Machine Learning: Regression, Classification, Clustering
+- Visualization: Tableau, Power BI, Matplotlib
+- Database: SQL, NoSQL
+- Big Data: Spark, Hadoop basics
+- Statistics: Probability, hypothesis testing
+Soft Skills: Analytical thinking, storytelling with data
+
+Career: AI / Machine Learning Engineer
+Technical Skills:
+- Python (TensorFlow, PyTorch, Keras)
+- Deep Learning: CNNs, RNNs, Transformers
+- NLP: NLTK, SpaCy, Hugging Face
+- MLOps: Docker, Kubernetes, MLflow
+- Mathematics: Linear Algebra, Calculus, Statistics
+Soft Skills: Research mindset, problem solving
+
+Career: Cybersecurity Analyst / Ethical Hacker
+Technical Skills:
+- Networking: TCP/IP, DNS, Firewalls
+- Tools: Kali Linux, Metasploit, Wireshark, Burp Suite
+- Certifications: CEH, CISSP, CompTIA Security+
+- Programming: Python, Bash scripting
+- Cloud Security: AWS Security, Azure Security
+Soft Skills: Attention to detail, analytical thinking
+
+Career: Embedded Systems / IoT Engineer
+Technical Skills:
+- Programming: C, C++, Python
+- Microcontrollers: Arduino, Raspberry Pi, STM32
+- RTOS: FreeRTOS, Embedded Linux
+- Protocols: I2C, SPI, UART, MQTT, BLE
+- Hardware: Circuit design, PCB basics
+Soft Skills: Debugging mindset, patience
+
+Career: VLSI Design Engineer
+Technical Skills:
+- HDL: VHDL, Verilog, SystemVerilog
+- Tools: Cadence, Synopsys, Mentor Graphics
+- Digital Design: Logic design, timing analysis
+- Verification: UVM, functional verification
+- Physical Design: Floorplanning, placement, routing
+Soft Skills: Precision, analytical thinking
+
+Career: Power Systems / Electrical Engineer
+Technical Skills:
+- Power Systems: Load flow, fault analysis
+- Software: MATLAB, ETAP, PowerWorld
+- Machines: Transformers, motors, generators
+- Automation: PLC, SCADA basics
+- Standards: IEC, IEEE electrical standards
+Soft Skills: Safety awareness, technical documentation
+
+Career: Mechanical Design / CAD Engineer
+Technical Skills:
+- CAD Tools: AutoCAD, SolidWorks, CATIA, ANSYS
+- Manufacturing: GD&T, machining processes
+- FEA/CFD: ANSYS, COMSOL
+- Materials: Material science, selection criteria
+- Product Design: DFM, DFA principles
+Soft Skills: Creativity, attention to detail
+
+Career: Business Analyst / IT Consultant
+Technical Skills:
+- Tools: MS Excel, Tableau, Power BI
+- ERP: SAP, Oracle basics
+- SQL for data querying
+- Agile/Scrum methodology
+- Requirements gathering and documentation
+Soft Skills: Communication, stakeholder management, presentation
+
+Career: Robotics / Automation Engineer
+Technical Skills:
+- Programming: Python, C++, ROS (Robot Operating System)
+- Automation: PLC, HMI, SCADA
+- Robotics: Kinematics, path planning, sensors
+- CAD: SolidWorks, AutoCAD
+- AI: Computer Vision, reinforcement learning
+Soft Skills: Systems thinking, problem solving

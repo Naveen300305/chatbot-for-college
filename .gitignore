@@ -1,0 +1,5 @@
+.env
+chromadb
+test.py
+output
+venv

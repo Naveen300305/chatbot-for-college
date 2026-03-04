@@ -1,0 +1,133 @@
+{
+  "course_name": "B.Tech Artificial Intelligence and Data Science",
+  "regulation": "R24 (Regulation 2024)",
+  "duration": "4 Years (8 Semesters)",
+  "total_credits": 169,
+  "semester_wise_subjects": {
+    "Semester 1": [
+      "Induction Programme",
+      "Mathematics I – Calculus and Linear Algebra",
+      "Heritage of Tamils",
+      "Communicative English I",
+      "Engineering Physics",
+      "Artificial Intelligence",
+      "C++ Programming",
+      "Digital Design and Computer Organization",
+      "Employability Enhancement Skills I"
+    ],
+    "Semester 2": [
+      "Mathematics II – Probability and Statistics",
+      "Tamils and Technology",
+      "Communicative English II",
+      "Web Development Essentials",
+      "Data Structures Using C++",
+      "Database Management Systems",
+      "Introduction to Java Programming",
+      "Employability Enhancement Skills II",
+      "NCC Credit Course Level 1 (Optional)"
+    ],
+    "Semester 3": [
+      "Discrete Mathematics",
+      "Operating System",
+      "Design and Analysis of Algorithms",
+      "Web Development Frameworks and Practices",
+      "Data Science and Visualization",
+      "Parallel Processing through Python",
+      "Employability Enhancement Skills III",
+      "Core Course Project I",
+      "Mandatory Course I"
+    ],
+    "Semester 4": [
+      "Computing Theory and Compiler Design",
+      "Big Data Analytics",
+      "Machine Learning",
+      "Data Warehousing and Data Mining",
+      "Artificial Intelligence of Things (AIoT)",
+      "Computer Networks",
+      "Employability Enhancement Skills IV",
+      "Core Course Project II",
+      "Mandatory Course II",
+      "NCC Credit Course Level 2 (Optional)"
+    ],
+    "Semester 5": [
+      "Natural Language Processing",
+      "Deep Learning",
+      "Reinforcement Learning",
+      "Professional Elective I",
+      "Professional Elective II",
+      "Professional Elective III",
+      "Employability Enhancement Skills V",
+      "Core Course Project III"
+    ],
+    "Semester 6": [
+      "Cloud and Distributed Computing",
+      "Generative AI",
+      "Computer Vision",
+      "Professional Elective IV",
+      "Professional Elective V",
+      "Open Elective I",
+      "Core Course Project IV",
+      "NCC Credit Course Level 3 (Optional)"
+    ],
+    "Semester 7": [
+      "Professional Ethics and Universal Human Values",
+      "Professional Elective VI",
+      "Open Elective II",
+      "Internship",
+      "Project Work Phase I"
+    ],
+    "Semester 8": [
+      "Project Work Phase II"
+    ]
+  },
+  "key_highlights": {
+    "core_focus_areas": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "Natural Language Processing",
+      "Reinforcement Learning",
+      "Generative AI",
+      "Computer Vision",
+      "Big Data Analytics",
+      "Data Warehousing and Data Mining",
+      "Cloud and Distributed Computing",
+      "Parallel Processing",
+      "AIoT"
+    ],
+    "project_based_learning": [
+      "Core Course Project I",
+      "Core Course Project II",
+      "Core Course Project III",
+      "Core Course Project IV",
+      "Internship",
+      "Project Work Phase I",
+      "Project Work Phase II"
+    ],
+    "industry_alignment": [
+      "Full AI pipeline coverage from foundations to Generative AI",
+      "Hands-on implementation via lab-integrated courses",
+      "Internship in Semester VII",
+      "Professional Electives for specialization",
+      "Open Electives for interdisciplinary exposure"
+    ],
+    "evaluation_scheme": {
+      "theory_courses": "40% Internal + 60% End Semester",
+      "practical_courses": "60% Internal + 40% End Semester",
+      "theory_cum_practical": "50% Internal + 50% End Semester",
+      "project_assessment": "40% Internal Reviews + 20% Report + 40% Viva/Demonstration",
+      "minimum_pass_requirement": "Minimum 50% separately in Internal and End Semester"
+    },
+    "credit_distribution": {
+      "Humanities_and_Social_Sciences": 13,
+      "Basic_Sciences": 16,
+      "Engineering_Sciences": 12,
+      "Program_Core": 83,
+      "Professional_Electives": 18,
+      "Open_Electives": 6,
+      "Employability_Enhancement_Skills": 21,
+      "Mandatory_Courses": 0
+    },
+    "induction_program": "Catapult week-long orientation introducing labs, COEs, projects, clubs, and collaborative culture."
+  }
+}
