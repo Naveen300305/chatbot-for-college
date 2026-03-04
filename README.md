@@ -9,14 +9,13 @@ A production-ready AI chatbot for **Chennai Institute of Technology (CIT)** that
 - [Overview](#-overview)
 - [Features](#-features)
 - [Architecture](#-architecture)
-- [Tech Stack](#-tech-stack)
+- [Tech Stack](#%EF%B8%8F-tech-stack)
 - [Project Structure](#-project-structure)
-- [Setup and Installation](#-setup-and-installation)
+- [Setup and Installation](#%EF%B8%8F-setup-and-installation)
 - [How to Run](#-how-to-run)
-- [How It Works](#-how-it-works)
+- [How It Works](#%EF%B8%8F-how-it-works)
 - [Agents](#-agents)
 - [Knowledge Base](#-knowledge-base)
-- [Screenshots](#-screenshots)
 
 ---
 
