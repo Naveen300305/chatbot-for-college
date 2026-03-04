@@ -6,18 +6,17 @@ A production-ready AI chatbot for **Chennai Institute of Technology (CIT)** that
 
 ## 📌 Table of Contents
 
-- [Overview](#overview)
-- [Features](#features)
-- [Architecture](#architecture)
-- [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
-- [Setup and Installation](#setup-and-installation)
-- [How to Run](#how-to-run)
-- [How It Works](#how-it-works)
-- [Agents](#agents)
-- [Knowledge Base](#knowledge-base)
-- [Screenshots](#screenshots)
-- [Resume Points](#resume-points)
+- [Overview](#-overview)
+- [Features](#-features)
+- [Architecture](#-architecture)
+- [Tech Stack](#-tech-stack)
+- [Project Structure](#-project-structure)
+- [Setup and Installation](#-setup-and-installation)
+- [How to Run](#-how-to-run)
+- [How It Works](#-how-it-works)
+- [Agents](#-agents)
+- [Knowledge Base](#-knowledge-base)
+- [Screenshots](#-screenshots)
 
 ---
 
@@ -138,8 +137,8 @@ chatbot-for-college/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/cit-smart-assistant.git
-cd cit-smart-assistant
+git clone https://github.com/Naveen300305/chatbot-for-college.git
+cd chatbot-for-college
 ```
 
 ### 2. Create Virtual Environment
@@ -286,17 +285,6 @@ Each agent's knowledge base follows this structure:
 
 ---
 
-## 📄 Resume Points
-
-> **Multi-Agent RAG Chatbot — Chennai Institute of Technology**
-
-1. Built a multi-agent RAG chatbot using Python, ChromaDB, and NVIDIA NIM API (GPT-OSS-20B) with BAAI/bge-small-en-v1.5 local embeddings for semantic search across a structured college knowledge base
-
-2. Designed a lightweight semantic router using Sentence Transformers (all-MiniLM-L6-v2) to classify and route student queries across three specialized agents — Admissions, Placements, and Career Guidance — with zero additional API calls
-
-3. Developed a real-time streaming Streamlit web application with persistent vector storage, session-based chat memory, dynamic agent routing indicators, source attribution, and follow-up question suggestions for enhanced student experience
-
----
 
 ## 🔑 Key Technical Decisions
 
