@@ -1,6 +1,8 @@
 import json
 import os
+import asyncio
 from dotenv import load_dotenv
+from typing import AsyncIterator
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import Chroma
 from langchain_core.documents import Document
@@ -43,7 +45,7 @@ class BaseAgent:
             model="openai/gpt-oss-20b",
             nvidia_api_key=self.api_key,
             temperature=0.3,
-            max_tokens=1024
+            max_tokens=2048
         )
 
         # ChromaDB client
@@ -69,6 +71,12 @@ class BaseAgent:
     # Build vector store from JSON
     # ─────────────────────────────────────────
     def _build_vectorstore(self, json_path: str):
+        # Handle relative paths by making them relative to project root
+        if not os.path.isabs(json_path):
+            # Get the project root (parent of agents folder)
+            project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+            json_path = os.path.join(project_root, json_path)
+        
         with open(json_path, "r", encoding="utf-8") as f:
             data = json.load(f)
 
@@ -77,9 +85,10 @@ class BaseAgent:
         ids = []
         counter = 0
 
-        # 1. Text data
+        # 1. Text data — prepend topic so embeddings capture what the doc is about
         for item in data.get("text_data", []):
-            documents.append(item["content"])
+            doc_text = f"Topic: {item['topic']}\n\n{item['content']}"
+            documents.append(doc_text)
             metadatas.append({
                 "topic": item["topic"],
                 "type": "text"
@@ -104,15 +113,39 @@ class BaseAgent:
 
         # 3. Structured data
         for item in data.get("structured_data", []):
-            structured_text = f"Topic: {item['topic']}\n"
-            structured_text += json.dumps(item["data"], indent=2)
-            documents.append(structured_text)
-            metadatas.append({
-                "topic": item["topic"],
-                "type": "structured"
-            })
-            ids.append(f"{self.agent_name}_structured_{counter}")
-            counter += 1
+            item_data = item["data"]
+            # If structured data has a list of courses, emit one document per
+            # course so each chunk carries the course name — this ensures
+            # per-course semantic retrieval works correctly.
+            if (
+                isinstance(item_data, dict)
+                and isinstance(item_data.get("courses"), list)
+            ):
+                for course in item_data["courses"]:
+                    course_name = course.get("course_name", "Unknown Course")
+                    structured_text = (
+                        f"Topic: {item['topic']}\n"
+                        f"Course: {course_name}\n\n"
+                        f"{json.dumps(course, indent=2)}"
+                    )
+                    documents.append(structured_text)
+                    metadatas.append({
+                        "topic": item["topic"],
+                        "type": "structured",
+                        "course": course_name
+                    })
+                    ids.append(f"{self.agent_name}_structured_{counter}")
+                    counter += 1
+            else:
+                structured_text = f"Topic: {item['topic']}\n"
+                structured_text += json.dumps(item_data, indent=2)
+                documents.append(structured_text)
+                metadatas.append({
+                    "topic": item["topic"],
+                    "type": "structured"
+                })
+                ids.append(f"{self.agent_name}_structured_{counter}")
+                counter += 1
 
         # Split long documents into chunks
         splitter = RecursiveCharacterTextSplitter(
@@ -153,18 +186,43 @@ class BaseAgent:
         return collection
 
     # ─────────────────────────────────────────
+    # Mandatory chunks hook (override in subclass)
+    # ─────────────────────────────────────────
+    def _get_mandatory_chunks(self, user_question: str) -> tuple:
+        """Return (docs, metas) that must appear in context regardless of
+        semantic similarity. Override in subclasses for keyword-triggered
+        factual retrieval."""
+        return [], []
+
+    def _merge_chunks(self, mandatory_docs, mandatory_metas, sem_docs, sem_metas, user_question=""):
+        """Prepend mandatory chunks to semantic results, deduplicating."""
+        seen = set(mandatory_docs)
+        docs = list(mandatory_docs)
+        metas = list(mandatory_metas)
+        for doc, meta in zip(sem_docs, sem_metas):
+            if doc not in seen:
+                docs.append(doc)
+                metas.append(meta)
+                seen.add(doc)
+        return docs, metas
+
+    # ─────────────────────────────────────────
     # Answer using RAG
     # ─────────────────────────────────────────
     def answer(self, user_question: str, chat_history: list = []) -> dict:
-        # Retrieve top 4 relevant chunks
+        # Retrieve top 8 relevant chunks via semantic search
         results = self.collection.query(
             query_texts=[user_question],
-            n_results=4
+            n_results=8
         )
 
-        # Build context from retrieved chunks
-        chunks = results["documents"][0]
-        metas = results["metadatas"][0]
+        # Merge mandatory (keyword-triggered) + semantic chunks
+        m_docs, m_metas = self._get_mandatory_chunks(user_question)
+        chunks, metas = self._merge_chunks(
+            m_docs, m_metas,
+            results["documents"][0], results["metadatas"][0],
+            user_question
+        )
 
         context = "\n\n---\n\n".join([
             f"[Source: {meta.get('topic', 'unknown')}]\n{chunk}"
@@ -183,23 +241,23 @@ class BaseAgent:
                 history_text += f"{role}: {msg['content']}\n"
 
         prompt = f"""You are a helpful assistant for Chennai Institute of Technology (CIT).
-You MUST answer using the context below. The context contains real data from CIT.
+Answer using ONLY the context provided below.
 
-IMPORTANT RULES:
-- You MUST use the information from the context to answer
-- If numbers, statistics or lists are in the context — USE THEM in your answer
-- Only say "I don't have that information" if the context has ZERO relevant info
-- Be friendly, clear and use bullet points for lists
-- Always refer to the college as CIT or Chennai Institute of Technology
+RULES:
+- Answer ONLY what the user asked. Do not add extra explanations, reasons, or descriptions unless the user asked for them.
+- If the user asks to LIST courses/programmes: output ONLY the course names as a numbered list — no descriptions, no table, no justifications.
+- If the user asks for a SYLLABUS: list the subjects per semester clearly.
+- If the user asks a general question: give a concise, direct answer.
+- Refer to the college as CIT.
 
-{f"Previous conversation:{chr(10)}{history_text}" if history_text else ""}
+{f"Previous:{chr(10)}{history_text}" if history_text else ""}
 
-Context from CIT knowledge base:
+Context:
 {context}
 
-Student Question: {user_question}
+Question: {user_question}
 
-Answer (use the context data above):"""
+Answer:"""
 
         response = self.llm.invoke(prompt)
 
@@ -214,14 +272,19 @@ Answer (use the context data above):"""
     def answer_stream(self, user_question: str, chat_history: list = []):
         """Same as answer() but streams tokens one by one"""
 
-        # Retrieve top 4 relevant chunks
+        # Retrieve top 8 relevant chunks via semantic search
         results = self.collection.query(
             query_texts=[user_question],
-            n_results=4
+            n_results=8
         )
 
-        chunks = results["documents"][0]
-        metas  = results["metadatas"][0]
+        # Merge mandatory (keyword-triggered) + semantic chunks
+        m_docs, m_metas = self._get_mandatory_chunks(user_question)
+        chunks, metas = self._merge_chunks(
+            m_docs, m_metas,
+            results["documents"][0], results["metadatas"][0],
+            user_question
+        )
 
         context = "\n\n---\n\n".join([
             f"[Source: {meta.get('topic', 'unknown')}]\n{chunk}"
@@ -239,24 +302,26 @@ Answer (use the context data above):"""
                 role = "Student" if msg["role"] == "user" else "Assistant"
                 history_text += f"{role}: {msg['content']}\n"
 
+        history_section = f"Previous conversation:\n{history_text}" if history_text else ""
+        
         prompt = f"""You are a helpful assistant for Chennai Institute of Technology (CIT).
-    You MUST answer using the context below. The context contains real data from CIT.
+Answer using ONLY the context provided below.
 
-    IMPORTANT RULES:
-    - You MUST use the information from the context to answer
-    - If numbers, statistics or lists are in the context — USE THEM in your answer
-    - Only say "I don't have that information" if the context has ZERO relevant info
-    - Be friendly, clear and use bullet points for lists
-    - Always refer to the college as CIT or Chennai Institute of Technology
+RULES:
+- Answer ONLY what the user asked. Do not add extra explanations, reasons, or descriptions unless the user asked for them.
+- If the user asks to LIST courses/programmes: output ONLY the course names as a numbered list — no descriptions, no table, no justifications.
+- If the user asks for a SYLLABUS: list the subjects per semester clearly.
+- If the user asks a general question: give a concise, direct answer.
+- Refer to the college as CIT.
 
-    {f"Previous conversation:{chr(10)}{history_text}" if history_text else ""}
+{history_section}
 
-    Context from CIT knowledge base:
-    {context}
+Context:
+{context}
 
-    Student Question: {user_question}
+Question: {user_question}
 
-    Answer (use the context data above):"""
+Answer:"""
 
         # Stream tokens one by one
         for chunk in self.llm.stream(prompt):
@@ -279,3 +344,67 @@ Return ONLY the 3 questions, one per line, no numbering, no extra text."""
         ]
         return questions[:3]
 
+    # ─────────────────────────────────────────
+    # Async streaming for WebSocket
+    # ─────────────────────────────────────────
+    async def answer_stream_async(
+    self,
+    user_question: str,
+    chat_history: list = []
+) -> AsyncIterator[tuple[str, list]]:
+
+        # Retrieve top 8 relevant chunks via semantic search
+        results = self.collection.query(
+            query_texts=[user_question],
+            n_results=8
+        )
+
+        # Merge mandatory (keyword-triggered) + semantic chunks
+        m_docs, m_metas = self._get_mandatory_chunks(user_question)
+        chunks, metas = self._merge_chunks(
+            m_docs, m_metas,
+            results["documents"][0], results["metadatas"][0],
+            user_question
+        )
+
+        context = "\n\n---\n\n".join([
+            f"[Source: {meta.get('topic', 'unknown')}]\n{chunk}"
+            for chunk, meta in zip(chunks, metas)
+        ])
+
+        sources = list(set([
+            meta.get("topic", "unknown") for meta in metas
+        ]))
+
+        # Build chat history
+        history_text = ""
+        if chat_history:
+            for msg in chat_history[-4:]:
+                role = "Student" if msg["role"] == "user" else "Assistant"
+                history_text += f"{role}: {msg['content']}\n"
+
+        prompt = f"""You are a helpful assistant for Chennai Institute of Technology (CIT).
+Answer using ONLY the context provided below.
+
+RULES:
+- Answer ONLY what the user asked. Do not add extra explanations, reasons, or descriptions unless the user asked for them.
+- If the user asks to LIST courses/programmes: output ONLY the course names as a numbered list — no descriptions, no table, no justifications.
+- If the user asks for a SYLLABUS: list the subjects per semester clearly.
+- If the user asks a general question: give a concise, direct answer.
+- Refer to the college as CIT.
+
+{f"Previous:{chr(10)}{history_text}" if history_text else ""}
+
+Context:
+{context}
+
+Question: {user_question}
+
+Answer:"""
+
+        # Stream tokens (wrap sync stream in async)
+        loop = asyncio.get_event_loop()
+        for chunk in self.llm.stream(prompt):
+            yield chunk.content, sources
+            # Yield to event loop to allow other tasks to run
+            await asyncio.sleep(0)

@@ -7,11 +7,19 @@ print("  [✅] Router model loaded!")
 AGENT_DESCRIPTIONS = {
     "admissions": """
         college admission eligibility cutoff marks cutoff rank
-        apply joining courses offered fees lateral entry NRI OCI
-        foreign students SAT scores TNEA HSC qualifications
-        documents required BE BTech ME syllabus semesters credits
-        regulation minimum marks category OC BC MBC SC BCM
-        branch wise rank cutoff 2025 community wise
+        apply joining fees lateral entry NRI OCI foreign students SAT TNEA
+        HSC qualifications documents required regulation minimum marks
+        category OC BC MBC SC BCM branch wise rank cutoff 2025 community wise
+        courses offered syllabus curriculum subjects semester credits
+        BE BTech ME undergraduate postgraduate programme
+        computer science engineering information technology
+        artificial intelligence data science AI DS AI ML electronics
+        communication ECE electrical EEE mechanical civil biomedical
+        mechatronics VLSI advanced communication technology
+        computer science business systems
+        what courses are offered what programmes what branches
+        syllabus of AI DS syllabus of CSE syllabus of IT
+        semester wise subjects list of subjects curriculum structure
     """,
 
     "placements": """
@@ -19,17 +27,18 @@ AGENT_DESCRIPTIONS = {
         recruiting internship training aptitude soft skills
         mock interview hired offer letter TCS Infosys Wipro
         Amazon Microsoft placement statistics percentage
-        highest salary average package tell me about placements
-        placement record placement season career outcomes
-        job offers recruitment drive campus placement
+        highest salary average package placement record placement season
+        career outcomes job offers recruitment drive campus placement
+        how many students got placed placement 2024 2025
     """,
 
     "career_guidance": """
-        career future scope after graduation job roles
-        higher studies MS MBA GATE GRE abroad
-        skills required recommend which course suits me
-        industry trends salary range what to do after
-        software developer data scientist engineer
+        career future scope after graduation job roles prospects
+        higher studies MS MBA GATE GRE study abroad
+        which course should I choose what to do after engineering
+        industry trends salary range career path career advice
+        what skills are needed for job market
+        career options for graduates recommend career
     """
 }
 

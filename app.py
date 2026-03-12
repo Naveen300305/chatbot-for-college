@@ -339,6 +339,9 @@ with chat_container:
             agent_key  = msg.get("agent", "admissions")
             info       = AGENT_INFO[agent_key]
             sources    = msg.get("sources", [])
+            
+            # Convert newlines to <br> for proper display
+            formatted_content = msg["content"].replace('\n', '<br>')
 
             source_tags = " ".join([
                 f"<span class='source-tag'>📎 {s}</span>"
@@ -350,7 +353,7 @@ with chat_container:
                 <div>
                     <span class='agent-badge {info["badge"]}'>{info["label"]}</span>
                 </div>
-                {msg["content"]}
+                <div style='margin-top:8px; white-space: pre-wrap;'>{formatted_content}</div>
                 <div style="margin-top:10px;">
                     {source_tags}
                 </div>
@@ -411,15 +414,21 @@ def process_question(user_input: str):
         full_response    += token
         sources_captured  = sources
 
+        # Convert newlines to <br> for proper display
+        formatted_response = full_response.replace('\n', '<br>')
+        
         stream_box.markdown(
             f"<div class='bot-message'>"
             f"<span class='agent-badge {badge}'>{label}</span>"
-            f"<div style='margin-top:8px;'>{full_response}▌</div>"
+            f"<div style='margin-top:8px; white-space: pre-wrap;'>{formatted_response}▌</div>"
             f"</div>",
             unsafe_allow_html=True
         )
 
     # Final render without cursor
+    # Convert newlines to <br> for proper display
+    formatted_response = full_response.replace('\n', '<br>')
+    
     source_tags = " ".join([
         f"<span class='source-tag'>📎 {s}</span>"
         for s in sources_captured
@@ -428,7 +437,7 @@ def process_question(user_input: str):
     stream_box.markdown(
         f"<div class='bot-message'>"
         f"<span class='agent-badge {badge}'>{label}</span>"
-        f"<div style='margin-top:8px;'>{full_response}</div>"
+        f"<div style='margin-top:8px; white-space: pre-wrap;'>{formatted_response}</div>"
         f"<div style='margin-top:10px;'>{source_tags}</div>"
         f"</div>",
         unsafe_allow_html=True
